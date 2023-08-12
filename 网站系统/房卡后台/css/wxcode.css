@@ -1,0 +1,99 @@
+p{
+  margin: 2rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+p span{
+  display: inline-block;
+  width:5rem;
+  text-align: right;
+}
+.ui-num{
+  color: #EE7D05;
+  font-weight: bold;
+  width: auto;
+  font-size: 0.8rem;
+}
+.ui-price{
+  color: red;
+  font-weight: bold;
+  width: auto;
+  font-size: 1.5rem;
+}
+img.ui-code{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 359px) {
+  html { font-size: 90% }
+  #clickmenu{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 8%;
+    height: 42%;
+  }
+  form label em input[type='submit'] {
+    width: 60%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px ) {
+  html { font-size: 90% }
+  form label em input[type='submit'] {
+    width: 60%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  html { font-size: 120% }
+  #clickmenu{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    width: 8%;
+    height: 43%;
+  }
+  form label em input[type='submit'] {
+    width: 60%;
+    font-size: 1rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  html { font-size: 120% }
+  #clickmenu{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    width: 6%;
+    height: 43%;
+  }
+  form label em input[type='submit'] {
+    width: 60%;
+    font-size: 1rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html { font-size: 120% }
+  #clickmenu{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    width: 5%;
+    height: 43%;
+  }
+  form label em input[type='submit'] {
+    width: 60%;
+    font-size: 1rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
+}

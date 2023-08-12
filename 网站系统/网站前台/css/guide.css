@@ -1,0 +1,33 @@
+.ui-guide-ry{
+  position: relative;
+  width: 100%;
+  height: 973px;
+  background: url("/Images/guide_ry_bg.png") no-repeat center;
+}
+.ui-guide-ry .ui-guide-foot{
+  position: absolute;
+  width: 100%;
+  height: 290px;
+  background: url("/Images/guide_ry_foot_bg.png") no-repeat center;
+  margin-left: -960px;
+  left: 50%;
+  bottom:0;
+  text-align: center;
+}
+.ui-guide-ry .ui-guide-box{
+  width: 1000px;
+  margin: 210px auto 0;
+  padding-left: 290px;
+}
+.ui-guide-ry .ui-guide-box p{
+  font-size: 13px;
+  color: #fff;
+  text-align: left;
+  line-height: 24px;
+}
+.ui-guide-ry .ui-guide-box .ui-tip-gray{
+  color: #878787;
+}
+.ui-guide-ry .ui-guide-box .ui-tip{
+  margin-top: 8px;
+}

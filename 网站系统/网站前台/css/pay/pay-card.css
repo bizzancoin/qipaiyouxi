@@ -1,0 +1,4 @@
+@import "pay-bank.css";
+.ui-pay-way li .ui-btn-1 {margin-left: 0;}
+.ui-pay-operation {padding-left: 100px;}
+.ui-pay-operation input {margin-right: 10px;}

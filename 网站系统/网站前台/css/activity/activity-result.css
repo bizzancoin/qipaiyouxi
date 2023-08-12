@@ -1,0 +1,35 @@
+@import "activity-details.css";
+.ui-deal-search {
+  text-align: center;
+  height: 59px;
+  line-height: 59px;
+  border-bottom: 1px dashed #a5a5a5;
+}
+.ui-deal-search > span {
+  font-size: 14px;
+  color: #959595;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.ui-deal-search img {vertical-align: middle;}
+.ui-deal-search input, .ui-deal-search select {
+  width: 98px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #f3f3f3;
+  text-align: center;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.ui-deal-search input.ui-deal-submit {
+  width: 73px;
+  font-size: 0;
+  height: 32px;
+  border: none;
+  background: url("/images/search_btn.png") no-repeat;
+  cursor: pointer;
+}
+.ui-deal-search input.ui-deal-submit:hover {background-position: -77px 0;}

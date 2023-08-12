@@ -1,0 +1,7 @@
+@import "member-details.css";
+.ui-main-details {height: 685px;}
+.ui-member-retrieve {padding-top: 50px;}
+.ui-member-retrieve p {text-align: center; margin-bottom: 20px;}
+.ui-member-retrieve p>input {vertical-align: middle;}
+.ui-text-1 {width: 210px; height: 25px;}
+.ui-text-1:focus {width: 212px; height: 27px;}

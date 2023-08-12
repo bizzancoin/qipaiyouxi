@@ -1,0 +1,70 @@
+﻿<td colspan="100">
+    <table width="100%" border="0" align="center">
+        <tr class="list" align="center">
+            <td style="font-weight: bold;">
+                帐号
+            </td> 
+            <td style="font-weight: bold;">
+                昵称
+            </td> 
+             <td style="font-weight: bold;">
+                游戏ID
+            </td> 
+            <td style="font-weight: bold;">
+                是否机器人
+            </td>
+            <td style="font-weight: bold;">
+                椅子编号
+            </td>
+            <td style="font-weight: bold;">
+                输赢积分
+            </td>
+            <td style="font-weight: bold;">
+                税收/服务费
+            </td>
+            <td style="font-weight: bold;">
+                元宝数目
+            </td>
+            <td style="font-weight: bold;">
+                游戏时长
+            </td>
+            <td style="font-weight: bold;">
+                插入时间
+            </td>
+        </tr>
+        {# for item in UserGameRecord#}
+            <tr class="list" align="center">
+                <td>
+                    {# item.Accounts#}
+                </td>
+                <td>
+                    {# item.NickName#}
+                </td>
+                <td>
+                    {# item.GameID#}
+                </td>
+                <td>
+                    {# item.IsAndroid#}
+                </td>                                          
+                <td>
+                    {# item.ChairID#}
+                </td>
+                <td>
+                    {# item.Score#}
+                </td>
+                <td>
+                    {# item.Revenue#}
+                </td>                                          
+                <td>
+                    {# item.UserMedal#}
+                </td>
+                <td>
+                    {# item.PlayTimeCount#}
+                </td>
+                <td>
+                    {# item.InsertTime#}
+                </td>               
+            </tr>
+        {# endfor#}
+    </table>
+</td>

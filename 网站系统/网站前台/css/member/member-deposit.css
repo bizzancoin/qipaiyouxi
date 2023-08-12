@@ -1,0 +1,30 @@
+@import "member-details.css";
+.ui-main-details {min-height: 685px;}
+.ui-treasure p,
+.ui-deposit p,
+.ui-deposit-tips p {
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+h2.ui-title-solid {margin-bottom: 20px;}
+.ui-treasure span,
+.ui-deposit span {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 90px;
+  text-align: right;
+}
+span.ui-color-red {
+  width: auto;
+  text-align: left;
+  color: #ff0000;
+}
+.ui-treasure a {color: #ff0000; text-decoration: underline;}
+.ui-treasure a:hover {color: #D61212; text-decoration: none;}
+.ui-btn-1 {margin-left: 90px;}
+.ui-deposit textarea {
+  vertical-align: middle;
+  width: 300px;
+  height: 100px;
+}

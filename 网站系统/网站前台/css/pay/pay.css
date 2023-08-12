@@ -1,0 +1,42 @@
+.ui-pay {
+  padding: 47px 55px 48px;
+  background: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#afafaf', Direction=135, Strength=3);
+  -webkit-box-shadow: 0 0 6px #afafaf;
+  -moz-box-shadow: 0 0 6px #afafaf;
+  box-shadow: 0 0 6px #afafaf;
+}
+.ui-pay-recommend .ui-title { background-position: 0 -260px; }
+.ui-pay-other .ui-title { background-position: 0 -299px; }
+.ui-recommend-list { padding: 28px 28px 17px; }
+.ui-other-list { padding: 28px; }
+.ui-recommend-list li,
+.ui-other-list li {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  font-size: 0; margin-bottom: 26px;
+}
+.ui-pay-detail { width: 170px; padding-left: 10px; }
+.ui-pay-detail-pic { font-size: 0; }
+.ui-pay-detail-pic,
+.ui-pay-detail {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  vertical-align: top;
+}
+.ui-pay-detail h4 { font-size: 18px; color: #333; line-height: 24px; }
+.ui-pay-detail p {
+  font-size: 13px;
+  color: #666;
+  line-height: 16px;
+  margin-bottom: 5px;
+  height: 32px;
+  overflow: hidden;
+}
+.ui-pay-detail a { font-size: 13px; color: #4c39aa; }
+.ui-pay-detail-center { margin: 0 26px; }

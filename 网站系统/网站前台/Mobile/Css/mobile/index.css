@@ -1,0 +1,237 @@
+html, body {
+  width: 100%;
+  min-height: 100%;
+  font-size: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+body a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.ui-main{
+  width: 100%;
+  position: absolute;
+}
+.ui-bg{
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.ui-content{
+  position: absolute;
+  left: 0;
+  top:0;
+  right: 0;
+  margin: auto;
+}
+.ui-top{
+    width: 100%;
+    box-sizing: border-box;
+    height: 3.2rem;
+
+    padding: 0 3.1% 0 3.4%;
+}
+.ui-top i{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.ui-logo{
+  width: 34%;
+}
+.ui-share{
+  width: 7.5%;
+  margin-left: 13.8rem;
+  position:relative;
+}
+.ui-share,.ui-logo{
+  display: inline-block;
+  vertical-align: middle;
+}
+.ui-logo img{
+  width: 100%;
+  display: block;
+}
+.ui-share a{
+  display: block;
+   width: 100%;
+   position:absolute;
+   left:0;
+   top:0;
+ }
+.ui-top .bdshare-button-style1-16 a, .bdshare-button-style1-16 .bds_more{
+    background:none;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+.ui-share img{
+  display: block;
+  width: 100%;
+}
+a.ui-download-btn{
+  display: block;
+  width: 46%;
+  margin: 18rem auto 0;
+}
+a.ui-download-btn img{
+  width: 100%;
+}
+.ui-bottom{
+  width: 100%;
+  position: fixed;
+  height: 3rem;
+  line-height: 3rem;
+  bottom: 0;
+  left:0;
+  background: url("../../Image/bottom_bg.png") no-repeat center;
+  background-size: cover;
+}
+.ui-bottom a{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.ui-bottom  a i{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.ui-bottom a img{
+  display: inline-block;
+  vertical-align: middle;
+}
+a.ui-qq img{
+  width: 50%;
+  margin: 0 auto;
+}
+a.ui-phone img{
+  width: 56%;
+  margin: 0 auto;
+}
+.ui-weixin-tip {
+  height: 100%;
+ position:absolute;
+ left:0;
+ top:0;
+ z-index:999;
+ background: rgba(0,0,0,.7);
+}
+.ui-weixin-tip p {
+    width:100%;
+  text-align: center;
+}
+.ui-weixin-tip p img{
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 320px) and (min-width: 310px) {
+  html { font-size: 100% !important;   -webkit-text-size-adjust: none;}
+
+}
+@media only screen and (max-width: 360px) and (min-width: 320px) {
+  html { font-size: 100% !important;   -webkit-text-size-adjust: none;}
+  .ui-top{
+    height: 3rem;
+  }
+  .ui-share{
+    margin-left: 10.2rem;
+  }
+  a.ui-download-btn{
+    margin-top: 16rem;
+  }
+
+}
+@media only screen and (max-width: 360px) and (min-width: 350px) {
+  html { font-size: 102% !important;   -webkit-text-size-adjust: none;}
+}
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+  html { font-size: 110% !important;   -webkit-text-size-adjust: none;}
+  .ui-top{
+    height: 3rem;
+  }
+  .ui-share{
+    margin-left: 10.5rem;
+  }
+  a.ui-download-btn{
+    margin-top: 17.5rem;
+  }
+}
+@media only screen and (max-width: 480px) and (min-width: 410px) {
+  html { font-size: 122% !important;   -webkit-text-size-adjust: none;}
+  .ui-top{
+    height: 3rem;
+  }
+  .ui-share{
+    margin-left: 10.8rem;
+  }
+  a.ui-download-btn{
+    margin-top: 17.5rem;
+  }
+}
+@media only screen and (max-width: 480px) and (min-width: 470px) {
+  html { font-size: 140% !important;   -webkit-text-size-adjust: none;}
+}
+@media only screen and (max-width: 560px) and (min-width: 480px) {
+  html { font-size: 142% !important;   -webkit-text-size-adjust: none;}
+}
+@media only screen and (max-width: 570px) and (min-width: 560px) {
+  html { font-size: 132% !important;   -webkit-text-size-adjust: none;}
+  .ui-top{
+    height: 4rem;
+  }
+  .ui-bottom{
+    height: 3.3rem;
+  }
+  a.ui-download-btn{
+    margin-top: 22rem;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 570px) {
+  html { font-size: 100%; }
+}
+@media only screen and (max-width: 640px) and (min-width: 630px) {
+  html { font-size: 105% !important;   -webkit-text-size-adjust: none;}
+}
+@media only screen and (max-width: 732px) and (min-width: 640px) {
+  html { font-size: 154% !important;   -webkit-text-size-adjust: none;}
+  .ui-top{
+    height: 4rem;
+  }
+  .ui-bottom{
+    height: 3.3rem;
+  }
+  a.ui-download-btn{
+    margin-top: 22rem;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 733px) {
+  html { font-size: 178% !important;   -webkit-text-size-adjust: none;}
+  .ui-top{
+    height: 3.8rem;
+  }
+  .ui-bottom{
+    height: 3.3rem;
+  }
+  a.ui-download-btn{
+    margin-top: 22rem;
+  }
+}
+@media only screen  and (min-width: 1024px) {
+  html { font-size: 242% !important;   -webkit-text-size-adjust: none;}
+  .ui-top{
+    height: 3.8rem;
+  }
+  .ui-bottom{
+    height: 3.3rem;
+  }
+  a.ui-download-btn{
+    margin-top: 22rem;
+  }
+}

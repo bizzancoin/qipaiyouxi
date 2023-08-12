@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Game.Card.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="zh">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="widli=device-widli, initial-scale=1.0, user-scalable=0" />
+    <title><%: Page.Title %> - 房卡管理中心</title>
+    <link href="/css/base.css" rel="stylesheet" />
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/layer_mobile/need/layer.css" rel="stylesheet" />
+    <script src="/Scripts/zepto.min.js"></script>
+    <script src="/layer_mobile/layer.js"></script>
+    <asp:ContentPlaceHolder ID="Css" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+      <main>
+      <div class="ui-top">
+        <a id="clickmenu" href="javascript:;">
+          <img src="/image/menu.png">
+        </a>
+        <a class="ui-return" href="javascript:history.go(-1);"><img src='/image/return.png'></a>
+        <div id="menu" class="menu fn-hide">
+            <ul>
+                <li><img src='/image/editor.png'><a href="/UpdateInfo.aspx">修改资料</a></li>
+                <li><img src='/image/change_password.png'><a href="/UpdatePass.aspx">修改密码</a></li>
+                <li><img src='/image/login_out.png'><a href="/LoginOut.aspx">退&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出</a></li>
+            </ul>
+        </div>
+        <span><em></em><img src='/image/card_title.png'></span>
+      </div>
+        <ul class='nav fn-clear'>
+          <li <%= (Menu == 0 ? "class='active'" : "") %>><i><img src='/image/nav_line.png'></i><a href="/Index.aspx"><span><img src='/image/nav_ico/1.png'></span>首页</a><em><img src='/image/nav_bg.png'></em></li>
+          <li <%= (Menu == 1 ? "class='active'" : "") %>><i><img src='/image/nav_line.png'></i><a href="/Menu/Buy.aspx"><span><img src='/image/nav_ico/2.png'></span>购买</a><em><img src='/image/nav_bg.png'></em></li>
+          <li <%= (Menu == 2 ? "class='active'" : "") %>><i><img src='/image/nav_line.png'></i><a href="/Menu/Exchange.aspx"><span><img src='/image/nav_ico/3.png'></span>兑换</a><em><img src='/image/nav_bg.png'></em></li>
+          <li <%= (Menu == 3 ? "class='active'" : "") %>><i><img src='/image/nav_line.png'></i><a href="/Menu/Present.aspx"><span><img src='/image/nav_ico/4.png'></span>赠送</a><em><img src='/image/nav_bg.png'></em></li>
+          <%--<li <%= (Menu == 4 ? "class='active'" : "") %>><i><img src='/image/nav_line.png'></i><a href="/Menu/Rebate.aspx"><span><img src='/image/nav_ico/5.png'></span>返利</a><em><img src='/image/nav_bg.png'></em></li>--%>
+          <li <%= (Menu == 5 ? "class='active'" : "") %>><a href="/Menu/Record.aspx"><span><img src='/image/nav_ico/6.png'></span>记录</a><em><img src='/image/nav_bg.png'></em></li>
+        </ul>
+      <asp:ContentPlaceHolder ID="MainContent" runat="server">
+      </asp:ContentPlaceHolder>
+    </main>
+    <script src="/Scripts/base.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@import "shop.css";
+
+.ui-goods {margin: 40px 0; padding-left: 10px;}
+.ui-goods-showcase {
+  width: 310px;
+  height: 310px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 0;
+}
+.ui-goods-showcase i {
+  height: 100%;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+  font-size: 0;
+  letter-spacing: 0;
+}
+.ui-goods-showcase img {
+  max-width: 310px;
+  max-height: 310px;
+  _width: 310px;
+  _height: 310px;
+  vertical-align: middle;
+}
+.ui-goods-detail h4 {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  line-height: 40px;
+}
+.ui-goods-detail p {font-size: 15px; line-height: 30px;}
+.ui-goods-detail p>span { font-size: 15px; color: #ff0000;}
+.ui-goods-detail a { padding: 5px 20px;}
+.ui-goods-info h2 {margin-bottom: 20px;}
+.ui-main-details {min-height: 887px;}

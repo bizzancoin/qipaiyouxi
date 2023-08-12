@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BillBanks>
+	<Bank Code="ICBC" CnName="中国工商银行" />
+	<Bank Code="CMB" CnName="招商银行" />
+	<Bank Code="CCB" CnName="中国建设银行" />
+	<Bank Code="ABC" CnName="中国农业银行" />
+	<Bank Code="BOC_SH" CnName="中国银行(上海)" />
+	<Bank Code="BOC_GZ" CnName="中国银行(广州)" />
+	<Bank Code="SPDB" CnName="上海浦东发展银行" />
+	<Bank Code="BCOM" CnName="交通银行" />
+	<Bank Code="CMBC" CnName="中国民生银行" />
+	<Bank Code="SDB" CnName="深圳发展银行" />
+	<Bank Code="GDB" CnName="广东发展银行" />
+	<Bank Code="CITIC" CnName="中信银行" />
+	<Bank Code="HXB" CnName="华夏银行" />
+	<Bank Code="CIB" CnName="兴业银行" />
+	<Bank Code="GZRCC" CnName="广州市农村信用合作社" />
+	<Bank Code="GZCB" CnName="广州市商业银行" />
+	<Bank Code="SHRCC" CnName="上海农村商业银行" />
+	<Bank Code="CPSRB" CnName="中国邮政储蓄" />
+	<Bank Code="CEB" CnName="中国光大银行" />
+</BillBanks>

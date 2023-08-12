@@ -1,0 +1,75 @@
+@import "service.css";
+.ui-feedback { margin-top: 10px; }
+.ui-feedback h3 { font-size: 16px; margin-bottom: 10px; }
+.ui-feedback h3 > a:hover,
+a.ui-question-active { text-decoration: none; color: #ff0000; }
+.ui-question-time { border-bottom: 1px dashed #ccc; padding: 5px 15px; }
+.ui-question-time span { float: right; }
+.ui-question-detail,
+.ui-question-answer { padding: 10px 15px; }
+.ui-question-answer i {
+  display: block;
+  text-align: right;
+  color: #ff0000;
+  font-style: normal;
+}
+.ui-question-answer {
+  border: 1px solid #ece4ff;
+  background: #faf8ff;
+  position: relative;
+}
+.ui-question-answer:before,
+.ui-question-answer:after {
+  content: "";
+  position: absolute;
+  left: 40px;
+  width: 0;
+  height: 0;
+  border: 6px solid rgba(255, 255, 255, 0);
+  border-top-width: 0;
+}
+.ui-question-answer:before {border-bottom-color: #ECE4FF; top: -7px;}
+.ui-question-answer:after {border-bottom-color: #FAF8FF; top: -6px;}
+.ui-feedback li {margin-bottom: 30px;}
+
+.ui-news-paging { text-align: center; position: relative\9; margin-bottom: 30px;}
+.ui-news-paging a {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 15px;
+  color: #6c5bba;
+  border: 1px solid #ad9ef3;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+.ui-news-paging a.ui-news-paging-prev,
+.ui-news-paging a.ui-news-paging-next { width: 84px; }
+.ui-news-paging a:hover,
+a.ui-news-paging-active {
+  color: #fff;
+  background: #6c5bba;
+  text-decoration: none;
+}
+.ui-question-message h2 {margin-bottom: 20px;}
+.ui-question-message p { margin-bottom: 20px; padding-left: 80px;}
+.ui-question-message span {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 75px;
+  text-align: right;
+}
+.ui-question-message textarea {
+  vertical-align: middle;
+  width: 400px;
+  height: 100px;
+  font-size: 13px;
+}
+.ui-question-message input {margin-left: 75px;}

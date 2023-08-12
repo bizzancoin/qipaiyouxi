@@ -1,0 +1,146 @@
+/*图片轮播*/
+.ui-banner { font-size: 0; position: relative; height: 400px; overflow: hidden; min-width: 1250px; z-index: 1; }
+.ui-banner-bg-1,
+.ui-banner-bg-2 {
+  background: url("/images/banner_bg.png") repeat-x; z-index: 2;
+  position: absolute; left: 0; width: 100%; height: 12px;
+}
+/** change **/
+.ui-banner-bg-1 { background-position: top left; top: 0; }
+.ui-banner-bg-2 { background-position: bottom left; bottom: 0; }
+.ui-carousel-right { position: absolute; left: 50%; }
+.ui-carousel-left { position: relative; left: -50%; width: 1920px; height: 400px; overflow: hidden; }
+/** TODO change **/
+.ui-banner-img { position: relative; height: 400px; }
+.ui-banner-img div {
+  width: 1920px; height: 400px; text-align: center;
+  position: absolute; top: 0; left: 0;
+}
+/** change **/
+.ui-banner-img a { font-size: 0; }
+.ui-banner-btn { position: relative; bottom: 28px; left: -50%; text-align: center; }
+.ui-banner-btn li {
+  width: 100px; height: 6px; overflow: hidden;
+  display: inline-block; *zoom: 1; *display: inline; margin-right: 10px;
+  background: url("/images/banner_btn.png") no-repeat -110px 0;
+  cursor: pointer;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+}
+.ui-banner-btn li.ui-banner-active { background-position: 0 0; }
+/*轮播翻页按钮*/
+a.ui-banner-prev, a.ui-banner-next {
+  display: block;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 0;
+  top: 50%;
+  position: absolute;
+  margin-top: -80px;
+  left: 120px;
+  width: 70px;
+  height: 160px;
+  background: url("/images/banner_focus.png") no-repeat;
+}
+a.ui-banner-prev { background-position: 0 0; }
+a.ui-banner-next { left: auto; right: 120px; background-position: 0 -160px; }
+a.ui-banner-prev:hover { background-position: -70px 0; }
+a.ui-banner-next:hover { background-position: -70px -160px; }
+a.ui-banner-prev:active { background-position: -140px 0; }
+a.ui-banner-next:active { background-position: -140px -160px; }
+/*--------图片轮播-------*/
+.ui-content { background: #fff url("/images/index_bg.png") top left repeat-x; padding-top: 16px; }
+.ui-download,
+.ui-rank { width: 280px; }
+.ui-news { width: 382px; margin: 0 39px; }
+.ui-title a {
+  font-size: 15px; color: #4c39aa; float: right; margin-right: 6px;
+}
+.ui-rank .ui-title { background-position: 0 -73px; margin-bottom: 16px; }
+.ui-news .ui-title { background-position: 0 -37px; }
+.ui-goodgames .ui-title { background-position: 0 -109px; }
+.ui-download { text-align: center; margin-left: 0; }
+.ui-download-pc,
+.ui-download-android,
+.ui-download-ios { text-align: center; font-size: 0; }
+.ui-download-android,
+.ui-download-ios { display: inline-block; *zoom: 1; *display: inline; }
+.ui-download-pc { margin-bottom: 15px; }
+.ui-download-pc p { line-height: 20px; }
+.ui-download-android { margin-right: 16px; }
+.ui-download-pic-1,
+.ui-download-pic-2,
+.ui-download-pic-3 { background: url("/images/download.png") no-repeat; display: inline-block; *zoom: 1; *display: inline; }
+.ui-download-pic-1 { width: 264px; height: 85px; }
+.ui-download-pic-2,
+.ui-download-pic-3 { width: 124px; height: 75px; }
+.ui-download-pic-2 { background-position: 0 -90px; }
+.ui-download-pic-3 { background-position: 0 -170px; }
+.ui-download-pic-1:hover { background-position: -284px 0; }
+.ui-download-pic-2:hover { background-position: -284px -90px; }
+.ui-download-pic-3:hover { background-position: -284px -170px; }
+.ui-news-list { padding: 0 12px 15px; }
+.ui-news-list li {
+  margin-bottom: 7px; padding-left: 12px; line-height: 23px; height: 23px;
+  background: url("/images/li_point.png") left center no-repeat;
+}
+.ui-news-list a {
+  font-size: 15px; color: #000; line-height: 23px;
+  display: inline-block; *zoom: 1; *display: inline; vertical-align: middle;
+  max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+}
+.ui-news-list span { font-size: 13px; line-height: 23px; color: #999; float: right; }
+.ui-generalize { display: block; font-size: 0; text-align: center; }
+.ui-rank-topthree { margin: 0 0 8px 31px; }
+.ui-rank-topthree li { float: left; text-align: center; margin-right: 23px; }
+.ui-rank-topthree p { font-size: 13px; color: #333; line-height: 13px; }
+.ui-rank-topthree span { font-size: 12px; color: #ff6600; }
+.ui-rank-list { padding: 0 14px; }
+.ui-rank-list strong,
+.ui-rank-list p,
+.ui-rank-list span { font-size: 12px; font-weight: 400; }
+.ui-rank-list p,
+.ui-rank-list strong { display: inline-block; *zoom: 1; *display: inline; }
+.ui-rank-list p { color: #333; }
+.ui-rank-list span { float: right; color: #ff6600; }
+.ui-rank-list strong { color: #cc6600; width: 17px; text-align: center; margin-right: 12px; }
+.ui-rank-list li { height: 19px; }
+.ui-goodgames { margin-top: 20px; text-align: center; }
+.ui-goodgames-list { display: inline-block; *zoom: 1; *display: inline; }
+.ui-goodgames-list li { float: left; margin: 0 11px; }
+.ui-goodgames-list a { display: block; font-size: 0; position: relative; }
+.ui-goodgames-list a:hover {text-decoration: none;}
+.ui-goodgames-list p { text-align: center; background: url("/images/gamesico_bg_2.png") no-repeat; line-height: 43px; }
+.ui-goodgames-list img { display: block; margin-bottom: 2px; }
+.ui-goodgames-list i {
+  position: absolute; background: url("/images/gamesico_bg.png") no-repeat;
+  width: 100px; height: 10px; top: 76px; left: -10px;
+}
+/*--------财富排行前三--------*/
+p.ui-rank-face {
+  width: 48px;
+  height: 48px;
+  padding: 3px 1px 3px 5px;
+  position: relative;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 0;
+  line-height: 0;
+  margin-bottom: 6px;
+}
+.ui-rank-face i {
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  background: url("/images/rank.png") no-repeat;
+  left: -3px;
+  top: 0;
+}
+i.ui-rank-1 { background-position: 0 0; }
+i.ui-rank-2 { background-position: -12px 0; }
+i.ui-rank-3 { background-position: -24px 0; }
+p.ui-rank-face img { width: 48px; height: 48px; }

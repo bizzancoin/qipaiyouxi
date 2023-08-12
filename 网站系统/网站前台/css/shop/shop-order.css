@@ -1,0 +1,62 @@
+@import "shop.css";
+.ui-order-detail p {padding: 20px 0; font-size: 15px;}
+.ui-order-detail p>span {color: #f00; font-size: 16px;}
+.ui-order-list {
+  border-bottom: 1px dashed #cfcfcf;
+  padding-bottom: 5px;
+}
+.ui-order-list a {
+  font-size: 14px;
+  color: #6c5bba;
+  line-height: 30px;
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid #ad9ef3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+a.ui-order-active,
+.ui-order-list a:hover {
+  background-color: #6c5bba;
+  color: #fff;
+  text-decoration: none;
+}
+.ui-activity-award table {width: 678px; margin-top: 20px;}
+.ui-activity-award th,
+.ui-activity-award td {
+  border: 1px solid #ddd;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+  cursor: default;
+  padding: 0 5px;
+}
+.ui-activity-award th {background-color: #ede9ff;}
+.ui-font-weight { font-weight: bold; }
+tr.ui-bg-color {background-color: #fdfcff; }
+.ui-activity-award tr:hover {background-color: #fffef9;}
+.ui-main-details {height: 1090px;}
+.ui-link-a{
+    width:326px;
+    float:right;
+}
+
+.ui-link-a a {
+  font-size: 14px;
+  color: #6c5bba;
+  line-height: 30px;
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid #ad9ef3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.ui-link-a a:hover {
+  background-color: #6c5bba;
+  color: #fff;
+  text-decoration: none;
+}

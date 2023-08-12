@@ -1,0 +1,19 @@
+﻿<!-- 用户登录中 S -->
+<div class="ui-main-user">
+    <dl class="fn-clear">
+        <dt class="ui-user-picture"><img src="{#= faceUrl#}"/></dt>
+        <dd class="ui-user-text fn-clear">
+            <div><label>帐号：</label><div class="ui-login-name fn-text-overflow">{#= accounts#}</div></div>
+            <div><label>ID：</label>{#= gameID#}</div>
+
+        </dd>
+    </dl>
+    <dl class="fn-clear ui-user-info">
+        <dd>会员类型：{#= userType#}</dd>
+        <dd>魅 力 值 ：<strong>{#= loveLiness#}</strong></dd>
+        <dd>[<a href="/Member/MIndex.aspx">个人中心</a>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<a href="/Member/ModifyLogonPass.aspx">修改密码</a>]</dd>
+        <dd><span><a href="/Index.aspx?exit=true" class="ui-quit">退出登录</a></span></dd>
+    </dl>
+    <!--登录S-->
+</div>
+<!-- 用户登录 E -->

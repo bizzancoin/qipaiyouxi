@@ -1,0 +1,14 @@
+@import "service.css";
+.ui-main-details {height: auto; padding-bottom: 40px;}
+.ui-main-speedy {min-height: 991px;}
+.ui-course {padding: 20px;}
+.ui-course h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+.ui-course p {
+  margin-bottom: 20px;
+  text-indent: 28px;
+}

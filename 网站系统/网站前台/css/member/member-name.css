@@ -1,0 +1,19 @@
+@import "member-details.css";
+.ui-main-details {height: 685px;}
+.ui-member-name {margin: 50px 0 0 200px;}
+.ui-member-name p {
+  font-size: 15px;
+  line-height: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.ui-member-name span {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  font-size: 15px;
+  color: #888;
+  width: 75px;
+  text-align: right;
+}
+p.ui-member-submit {padding-left: 75px;}

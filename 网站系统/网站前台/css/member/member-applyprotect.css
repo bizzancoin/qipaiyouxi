@@ -1,0 +1,15 @@
+@import "member-details.css";
+.ui-main-details {height: 685px;}
+.ui-member-applyprotect { margin-top: 50px;}
+.ui-member-applyprotect label {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 60px;
+  text-align: right;
+}
+.ui-member-applyprotect li {margin-bottom: 20px; padding-left: 100px;}
+.ui-btn-1 {padding: 3px 20px; margin-right: 10px;}
+.ui-select-1 {width: 174px;}
+.ui-submit-list {margin-left: 60px;}
+li.ui-li-bg {background-color: #fbfaff;}

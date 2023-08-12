@@ -1,0 +1,37 @@
+﻿/*!
+ * lhgcore Dialog Plugin StyleSheet
+ * Copyright (c) 2009 - 2010 By Li Hui Gang
+ */
+ 
+*{margin:0;padding:0}
+.lhgdig{position:absolute;padding:0;margin:0;}
+.lhgdig table{font:12px Verdana,Arial,sans-serif;}
+.lhgdig .content{vertical-align:top;background-color:#fff;}
+.lhgdig .inbox,.lhgdig .throbber{display:inline-block;height:100%;width:100%;background-color:#fff;overflow:auto;}
+.lhgdig .throbber span{display:block;background:url(images/wait.gif) no-repeat 0 0;position:relative;width:65px;height:16px;top:45%;padding-left:20px;font-weight:bold;}
+.lhgdig .btns{height:29px;background-color:#f6f6f6;border-top:1px solid #dadee5;}
+.lhgdig .bDiv{display:inline-block;float:right;}
+
+.lhgdig a.button{color:#000;outline:medium none;text-decoration:none;background:url(images/d_btn.gif) no-repeat 0 0;display:inline-block;height:21px;padding-left:15px;margin:1px 4px 0 0;cursor:default;}
+.lhgdig a.button em{background:url(images/d_btn.gif) no-repeat 100% 0;font-style:normal;letter-spacing:2px;height:21px;line-height:21px;_line-height:24px;padding-right:15px;display:inline-block;_overflow:hidden;}
+.lhgdig a.button:hover{text-decoration:none;background-position:0 -21px;}
+.lhgdig a.button:hover em{text-decoration:none;background-position:100% -21px;}
+
+.lhgdig .xbtn{position:absolute;cursor:default;top:0px;right:10px;width:36px;height:18px;background:url(images/d_bg.gif) no-repeat 0 0;}
+.lhgdig .xbtnover{background-position:0 -18px;}
+
+.lhgdig .leftTop,.lhgdig .rightTop,.lhgdig .leftBottom,.lhgdig .rightBottom,.lhgdig .left,.lhgdig .right{background-image:url(images/d_bg.gif);background-repeat:no-repeat;font-size:0;}
+.lhgdig .leftTop{width:6px;height:26px;background-position:-36px 0;}
+.lhgdig .rightTop{width:6px;height:26px;background-position:-42px 0;}
+.lhgdig .leftBottom{width:6px;height:6px;background-position:-36px -28px;}
+.lhgdig .rightBottom{width:6px;height:6px;background-position:-42px -28px;cursor:nw-resize;}
+.lhgdig .left,.lhgdig .right{background-repeat:repeat-y;}
+.lhgdig .left{background-position:-48px 0;}
+.lhgdig .right{ background-position:-54px 0;}
+.lhgdig .top,.lhgdig .bottom{background-image:url(images/d_x.gif);background-repeat:repeat-x;font-size:0;}
+.lhgdig .top{background-position:0 0;cursor:move;}
+.lhgdig .bottom{background-position:0 -26px;}
+.lhgdig .titlelhgdig{margin-left:5px;color:#fff;font-weight:bold;height:26px;line-height:26px;font-size:12px;}
+* html.lhgdig_ie6_fixed{background:url(*) fixed;} 
+* html.lhgdig_ie6_fixed body{height:100%;}
+* html .lhgdig_warp{position:absolute;width:100%;height:100%;left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth);top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);}

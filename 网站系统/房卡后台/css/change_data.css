@@ -1,0 +1,54 @@
+main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background: #f3f3f3;
+  max-width: 450px;
+}
+form {
+  margin: 4rem 0;
+  text-align: center;
+}
+form label {
+  display: table;
+  width: 100%;
+  padding-bottom: 2rem;
+  height: 2rem;
+}
+form label > span {
+  display: table-cell;
+  width: 35%;
+  text-align: right;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+form label em {
+  display: table-cell;
+  /* padding-left: 2rem; */
+  height: 100%;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+form label em input {
+  height: 100%;
+  width: 80%;
+  background: #d7d7d9;
+  border: none;
+  text-indent: 1rem;
+  border-radius: 5px;
+  outline: none;
+}
+form label input[type='submit'] {
+  width: 66.8%;
+  height: 3.5rem;
+  border-radius: 5px;
+  outline: none;
+  background: url(/image/change_submit.png) no-repeat center/100% 100%;
+  color: #fff;
+  text-indent: 0;
+  border: none;
+}

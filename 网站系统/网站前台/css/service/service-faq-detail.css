@@ -1,0 +1,18 @@
+@import "service.css";
+.ui-faq-detail { margin-bottom: 40px;}
+.ui-faq-detail h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+.ui-faq-detail p {
+  text-indent: 28px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+.ui-faq-back a:hover {text-decoration: none;}

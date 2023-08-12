@@ -1,0 +1,149 @@
+html{ font-size: 100%; background:transparent;}
+body {background:transparent;background-color:#781413;}
+.ui-content {width: 100%; background: #781413; padding-top: 3rem;}
+.ui-goods-detail {width: 30%; text-align: center; padding-top: 4rem;}
+.ui-padding {width: 80%; padding: 0 10%;}
+.ui-goods-showcase {
+  width: 94%; padding: 0 3%; text-align: center;
+  border: 1px solid #ffb11b;
+  -webkit-border-radius:1.2rem; -moz-border-radius:1.2rem; border-radius:1.2rem;
+  background: -webkit-linear-gradient(#ff6319, #6e0303); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#ff6319, #6e0303); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#ff6319, #6e0303); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#ff6319, #6e0303); /* 标准的语法 */
+}
+.ui-goods-pic {font-size: 0; padding-top: .4rem;}
+.ui-goods-pic img {
+  width: 99%; border: 2px solid #ffb11b;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+}
+.ui-goods-showcase p {font-size: 2rem; color: #ffeb73;}
+.ui-goods-showcase p>img {height: 1.5rem; vertical-align: 0; margin-right: .5rem;}
+.ui-goods-name {font-size: 1.5rem; color: #fff; margin-top: 2rem;}
+.ui-goods-name span {color: #f9bb00;}
+
+.ui-number {display: inline-block; *zoom: 1; *display: inline; position: relative;}
+.ui-number .ui-text-1 {text-align: center;}
+.ui-number a {position: absolute; font-size: 0; top:8px;}
+.ui-number a>img {width: 1.6rem;}
+a.ui-down {left: 8px;}
+a.ui-add {right: 8px;}
+.ui-exchange {width: 67%; border-left: 1px solid #ccc; padding-left: 2%}
+.ui-exchange p {font-size: 1.5rem; color: #fff; margin-bottom: .2rem;}
+p.ui-address {padding-left: 8.5rem;}
+.ui-exchange span {
+  font-size: 1.5rem; display: inline-block; *zoom: 1; *display: inline; width: 8.5rem; text-align: right;
+}
+span.ui-width-auto {width: auto; margin-left: 2rem;}
+span.ui-font-color {width: auto; color: #f9bb00;}
+
+.ui-text-1,
+.ui-text-2,
+.ui-text-3 {
+  height: 1.8rem; font-size: 1.2rem; line-height: 1.8rem; vertical-align: middle;
+  background: #480c0c; border: 3px solid #861919; color: #fff; text-indent: .3rem;
+  -webkit-border-radius: .3rem;
+  -moz-border-radius: .3rem;
+  border-radius: .3rem;
+}
+.ui-text-1 {width: 15rem;}
+.ui-text-2 {width: 7rem;}
+.ui-text-3 {width: 25rem;}
+.ui-submit {padding: 1rem 0 1rem 8.5rem;}
+.ui-submit a {display: inline-block; *zoom:1; *display:inline; font-size: 0;}
+.ui-select {
+  height: 2rem; font-size: 1.2rem; line-height: 2rem; vertical-align: middle;
+  background: #480c0c; border: 3px solid #861919; color: #fff;
+  -webkit-border-radius: .3rem;
+  -moz-border-radius: .3rem;
+  border-radius: .3rem;
+  width: 7rem;
+}
+@media screen and (max-width:839px) {
+  .ui-content {padding-top: 2rem;}
+  .ui-goods-showcase {-webkit-border-radius: 1rem; -moz-border-radius: 1rem; border-radius: 1rem;}
+  .ui-goods-pic img {-webkit-border-radius: .8rem; -moz-border-radius: .8rem; border-radius: .8rem; width: 98%;}
+  .ui-goods-showcase p {font-size: 1.5rem;}
+  .ui-goods-showcase p>img {height: 1.2rem;}
+  .ui-goods-name,
+  .ui-exchange span,
+  .ui-exchange p {font-size: 1.3rem;}
+  .ui-goods-name {margin-top: 1.5rem;}
+  .ui-exchange span {width: 7.5rem;}
+  span.ui-width-auto,
+  span.ui-font-color {width: auto;}
+  p.ui-address, .ui-submit {padding-left: 7.5rem;}
+  .ui-text-1 {width: 13rem;}
+  .ui-select {width: 5rem; font-size: 1rem;}
+  .ui-text-3 {width: 22rem;}
+  .ui-submit a>img {width: 13rem;}
+  .ui-number a { top:6px;}
+}
+@media screen and (max-width:769px) {
+  .ui-goods-showcase {-webkit-border-radius: .8rem; -moz-border-radius: .8rem; border-radius: .8rem;}
+  .ui-goods-pic img {-webkit-border-radius: .7rem; -moz-border-radius: .7rem; border-radius: .7rem;}
+  .ui-goods-showcase p {font-size: 1.3rem;}
+  .ui-goods-showcase p>img {height: 1rem;}
+  .ui-goods-name,
+  .ui-exchange span,
+  .ui-exchange p {font-size: 1.1rem;}
+  .ui-goods-name {margin-top: 1.3rem;}
+  .ui-exchange span {width: 6.5rem;}
+  span.ui-width-auto,
+  span.ui-font-color {width: auto;}
+  p.ui-address, .ui-submit {padding-left: 6.5rem;}
+  .ui-text-1, .ui-text-2, .ui-text-3 {font-size: 1rem;}
+  .ui-text-1 {width: 11.5rem;}
+  .ui-select {width: 4.5rem; font-size: .9rem;}
+  .ui-text-3 {width: 20rem;}
+  .ui-submit a>img {width: 11.5rem;}
+  .ui-number a>img {width: 1.4rem;}
+}
+@media screen and (max-width:639px) {
+  .ui-goods-showcase {-webkit-border-radius: .7rem; -moz-border-radius: .7rem; border-radius: .7rem;}
+  .ui-goods-pic img {-webkit-border-radius: .6rem; -moz-border-radius: .6rem; border-radius: .6rem; width: 96%}
+  .ui-goods-showcase p {font-size: 1rem;}
+  .ui-goods-showcase p>img {height: .8rem;}
+  .ui-goods-name,
+  .ui-exchange span,
+  .ui-exchange p {font-size: .9rem;}
+  .ui-exchange p {margin-bottom: .2rem;}
+  .ui-goods-name {margin-top: 1rem;}
+  .ui-exchange span {width: 5.5rem;}
+  span.ui-width-auto,
+  span.ui-font-color {width: auto;}
+  span.ui-width-auto {margin-left: 1rem;}
+  p.ui-address {padding-left: 5.5rem;}
+  .ui-submit {padding: .7rem 0 .7rem 5.5rem;}
+  .ui-text-1, .ui-text-2, .ui-text-3 {height: 1.5rem; line-height: 1.5rem; font-size: .95rem;}
+  .ui-text-1 {width: 10rem;}
+  .ui-select {width: 3.5rem; height: 1.7rem; line-height: 1.7rem; font-size: .65rem;}
+  .ui-text-3 {width: 14rem;}
+  .ui-submit a>img {width: 9rem;}
+  .ui-number a>img {width: 1.1rem;}
+}
+@media screen and (max-width:479px) {
+  .ui-goods-showcase {-webkit-border-radius: .5rem; -moz-border-radius: .5rem; border-radius: .5rem;}
+  .ui-goods-pic img {-webkit-border-radius: .4rem; -moz-border-radius: .4rem; border-radius: .4rem; width: 96%}
+  .ui-goods-showcase p {font-size: .9rem;}
+  .ui-goods-showcase p>img {height: .7rem;}
+  .ui-goods-name,
+  .ui-exchange span,
+  .ui-exchange p {font-size: .6rem;}
+  .ui-exchange p {margin-bottom: .2rem;}
+  .ui-goods-name {margin-top: 1rem;}
+  .ui-exchange span {width: 3.5rem;}
+  span.ui-width-auto,
+  span.ui-font-color {width: auto;}
+  span.ui-width-auto {margin-left: 1rem;}
+  p.ui-address {padding-left: 3.5rem;}
+  .ui-submit {padding: .5rem 0 .5rem 3.5rem;}
+  .ui-text-1, .ui-text-2, .ui-text-3 {height: 1.1rem; line-height: 1.1rem; font-size: .8rem;}
+  .ui-text-1 {width: 9rem;}
+  .ui-select {width: 2.8rem; height: 1.3rem; line-height: 1.3rem; font-size: .6rem;}
+  .ui-text-3 {width: 11rem;}
+  .ui-submit a>img {width: 6rem;}
+  .ui-number a>img {width: .8rem;}
+}

@@ -1,0 +1,69 @@
+@import "shop.css";
+.ui-main-details {min-height: 1090px;}
+.ui-goods-info table { width: 670px; margin-top: 20px;}
+.ui-goods-info th {
+  border: 1px solid #ddd;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+  cursor: default;
+  padding: 0 5px;
+}
+.ui-goods-info td {text-align: center; padding: 5px; height:64px;}
+.ui-goods-info td>img {vertical-align: middle; margin-right: 10px; max-height: 80px; max-width: 80px;}
+.ui-goods-info a>img {vertical-align: middle;}
+.ui-goods-info tbody {border: 1px solid #ddd;}
+.ui-exchange-info ul {padding: 20px 0 0 50px;}
+.ui-exchange-info li {margin-bottom: 20px;}
+.ui-exchange-info li>label {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 90px;
+  text-align: right;
+}
+.ui-shop-submit {padding-left: 95px;}
+.ui-shop-submit input {margin-right: 5px;}
+.ui-title-a {
+    color: #f00;
+    border: none;
+    padding-left: 20px;
+    margin-right: 16px;
+    font-size:16px;
+    float:right;
+}
+.ui-title-a:hover{
+    color: #f00;
+    text-decoration:underline;
+}
+.ui-gold-info {
+    width:100%;
+    height:60px;
+    line-height:60px;
+}
+.ui-gold-info span{
+    margin-right:20px;
+}
+.ui-result{
+    padding-top:30px;
+}
+.ui-result p span{
+    font-size:24px;
+    vertical-align:middle;
+    margin-right:15px;
+}
+.ui-result-tip{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    background:url(/images/pay_result.png) 0 0 no-repeat;
+}
+.ui-result p{
+    margin:40px 0 40px 0;
+}
+.ui-result p a{
+    color:#f00;
+    margin-right:10px;
+}

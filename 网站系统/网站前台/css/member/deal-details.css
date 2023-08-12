@@ -1,0 +1,191 @@
+.ui-main-speedy { min-height: 690px; }
+/*.ui-member-submenu li { position: relative \9; }*/
+.ui-member-submenu p > a {
+  display: block;
+  width: 207px;
+  height: 38px;
+  font-size: 19px;
+  color: #6c5bba;
+  line-height: 38px;
+  border: 1px solid #ad9ef3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px 0 0 5px;
+  text-align: left;
+  padding: 0 10px 0 51px;
+}
+.ui-submenu-1 p > a,
+.ui-submenu-2 p > a,
+.ui-submenu-3 p > a,
+.ui-submenu-4 p > a,
+.ui-submenu-5 p > a,
+.ui-submenu-1 p i,
+.ui-submenu-2 p i,
+.ui-submenu-3 p i,
+.ui-submenu-4 p i,
+.ui-submenu-5 p i,
+a.ui-submenu-list-active i,
+.ui-submenu-list a:hover i {
+  background: url("/images/left_submenu.png") left no-repeat;
+}
+.ui-submenu-1 p > a { background-position: 0 -768px; }
+.ui-submenu-2 p > a { background-position: 0 -844px; }
+.ui-submenu-3 p > a { background-position: 0 -920px; }
+.ui-submenu-4 p > a { background-position: 0 -1072px; }
+.ui-submenu-5 p > a { background-position: 0 -996px; }
+.ui-submenu-1 p i,
+.ui-submenu-2 p i,
+.ui-submenu-3 p i,
+.ui-submenu-4 p i,
+.ui-submenu-5 p i {
+  background-position: -14px -1148px;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 9px;
+}
+.ui-submenu-1 p > a:hover,
+.ui-submenu-2 p > a:hover,
+.ui-submenu-3 p > a:hover,
+.ui-submenu-4 p > a:hover,
+.ui-submenu-5 p > a:hover,
+.ui-submenu-1 p > a.ui-submenu-active,
+.ui-submenu-2 p > a.ui-submenu-active,
+.ui-submenu-3 p > a.ui-submenu-active,
+.ui-submenu-4 p > a.ui-submenu-active,
+.ui-submenu-5 p > a.ui-submenu-active {
+  text-decoration: none;
+  background-color: #6c5bba;
+  color: #fff;
+}
+.ui-submenu-1 p > a:hover i,
+.ui-submenu-2 p > a:hover i,
+.ui-submenu-3 p > a:hover i,
+.ui-submenu-4 p > a:hover i,
+.ui-submenu-5 p > a:hover i { background-position: -14px -1186px; }
+.ui-submenu-1 p > a.ui-submenu-active i,
+.ui-submenu-2 p > a.ui-submenu-active i,
+.ui-submenu-3 p > a.ui-submenu-active i,
+.ui-submenu-4 p > a.ui-submenu-active i,
+.ui-submenu-5 p > a.ui-submenu-active i { background-position: -14px -1262px; }
+.ui-submenu-1 p > a:hover,
+.ui-submenu-1 p > a.ui-submenu-active { background-position: 0 -806px; }
+.ui-submenu-2 p > a:hover,
+.ui-submenu-2 p > a.ui-submenu-active { background-position: 0 -882px; }
+.ui-submenu-3 p > a:hover,
+.ui-submenu-3 p > a.ui-submenu-active { background-position: 0 -958px; }
+.ui-submenu-4 p > a:hover,
+.ui-submenu-4 p > a.ui-submenu-active { background-position: 0 -1110px; }
+.ui-submenu-5 p > a:hover,
+.ui-submenu-5 p > a.ui-submenu-active { background-position: 0 -1034px; }
+.ui-submenu-list { padding: 0 15px 5px; }
+.ui-submenu-list li { padding: 0 5px 0 12px; border-bottom: 1px dashed #a5a5a5; }
+.ui-submenu-list a {
+  display: block;
+  width: 203px;
+  height: 39px;
+  font-size: 16px;
+  line-height: 39px;
+  padding-left: 30px;
+  color: #666;
+  text-align: left;
+  background: url("/images/li_point.png") left center no-repeat;
+}
+.ui-submenu-list a > i {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 10px;
+  height: 10px;
+  float: right;
+  margin-top: 14px;
+}
+.ui-submenu-list a:hover,
+a.ui-submenu-list-active {
+  background: url("/images/li_point_1.png") left center no-repeat;
+  text-decoration: none;
+  color: #6c5bba;
+}
+.ui-submenu-list a:hover i,
+a.ui-submenu-list-active i { background-position: 0 -1300px; }
+.ui-main-details { padding: 5px 25px 55px; width: 670px; }
+.ui-main-details h2 {
+  font-size: 19px;
+  color: #6c5bba;
+  line-height: 39px;
+  border-bottom: 1px solid #cfcfcf;
+}
+.ui-deal-search { text-align: center; height: 59px; line-height: 59px; border-bottom: 1px dashed #a5a5a5; }
+.ui-deal-search span { font-size: 14px; color: #959595; margin-right: 10px; line-height: 59px; vertical-align: middle; }
+.ui-deal-search input,
+.ui-deal-search select {
+  width: 98px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #f3f3f3;
+  text-align: center;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.ui-deal-search select { padding-left: 8px; }
+.ui-deal-search img { vertical-align: middle; }
+.ui-deal-search input.ui-deal-submit {
+  width: 73px;
+  font-size: 0;
+  height: 32px;
+  border: none;
+  background: url("/images/search_btn.png") no-repeat;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.ui-deal-search input.ui-deal-submit:hover {background-position: -77px 0;}
+.ui-deal-list { padding: 24px 0 29px; }
+.ui-deal-list table { width: 670px; }
+.ui-deal-list th,
+.ui-deal-list td {
+  border: 1px solid #ddd;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+  cursor: default;
+  padding: 0 5px;
+}
+.ui-deal-list th { background-color: #ededed; }
+td.ui-color-green { color: #339933; }
+td.ui-color-red { color: #ff0000; }
+tr.ui-bg-color { background-color: #f9f9f9; }
+.ui-deal-list tbody > tr:hover { background-color: #fffef9; }
+.ui-news-paging { text-align: center; position: relative \9; }
+.ui-news-paging a {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 15px;
+  color: #6c5bba;
+  border: 1px solid #ad9ef3;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+.ui-news-paging a.ui-news-paging-prev,
+.ui-news-paging a.ui-news-paging-next { width: 84px; }
+.ui-news-paging a:hover,
+a.ui-news-paging-active {
+  color: #fff;
+  background: #6c5bba;
+  text-decoration: none;
+}

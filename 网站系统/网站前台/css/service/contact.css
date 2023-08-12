@@ -1,0 +1,50 @@
+@import "service.css";
+.ui-piece-title {text-align: center; margin-bottom: 20px;}
+.ui-piece-title h4 {font-size: 20px; font-weight: bold; margin: 10px 0;}
+.ui-piece-title p {font-size: 17px;}
+.ui-contact-company,
+.ui-contact-link {border-bottom: 1px dashed #ccc; padding-bottom: 20px;}
+.ui-contact-company-detail {padding: 0 40px;}
+.ui-contact-company-detail a {
+  font-size: 0;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+a.ui-main-telephone{
+  background: url("/images/contact.png");
+  width: 314px;
+  height: 69px;
+}
+a.ui-main-qq {
+  background: url("/images/qq.png");
+  width: 255px;
+  height: 58px;
+}
+a.ui-main-qq:visited {background: url("/images/qq.png") 0 -60px;}
+a.ui-main-qq:hover {background: url("/images/qq.png") 0 -60px;}
+a.ui-main-qq:active {background: url("/images/qq.png") 0 -60px;}
+
+.ui-contact-link { text-align: left; width: 100%}
+.ui-contact-linkman{
+  display: inline-block;
+  width: 32%;
+  margin: 20px 0;
+}
+.ui-contact-linkman p{
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+  padding-left: 20px;
+}
+.ui-contact-linkman p:first-child{
+  text-align: center;
+  line-height: 2;
+  padding: 0;
+  font-size: 18px;
+}
+
+
+.ui-contact-address-detail {padding-left: 50px;}
+.ui-contact-address-detail p { font-size: 18px;}
+.ui-contact-address-detail span {font-size: 18px; color: #707070;}

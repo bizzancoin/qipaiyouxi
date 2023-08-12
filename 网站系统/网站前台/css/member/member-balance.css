@@ -1,0 +1,35 @@
+@import "deal-details.css";
+.ui-main-details {min-height: 630px;}
+.ui-balance-detail {
+  margin: 20px 30px;
+  padding: 20px 50px;
+  width: 500px;
+  background-color: #fafbff;
+}
+.ui-balance-detail li {
+  float: left;
+  width: 250px;
+  margin-bottom: 20px;
+}
+.ui-balance-detail li.rowspan {
+  float: left;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.ui-balance-detail span {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 115px;
+  text-align: right;
+}
+.ui-spread-balance {text-align: center;}
+.ui-spread-balance p,
+.ui-balance-tips h2,
+.ui-balance-tips p {margin-bottom: 20px;}
+span.ui-color-red {
+  width: auto;
+  text-align: left;
+  color: #ff0000;
+}
+.ui-balance-tips p {padding-left: 50px;}

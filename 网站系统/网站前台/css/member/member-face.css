@@ -1,0 +1,16 @@
+@import "member-details.css";
+.ui-main-details {height: 685px;}
+.ui-member-face {text-align: center; margin-top: 50px;}
+.ui-member-face p {margin-bottom: 20px;}
+.ui-member-face span {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 96px;
+  height: 96px;
+  line-height: 96px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+.ui-member-face img {vertical-align: middle;}

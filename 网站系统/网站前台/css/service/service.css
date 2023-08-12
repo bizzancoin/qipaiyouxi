@@ -1,0 +1,101 @@
+.ui-main-speedy {padding-top: 0; width: 280px; min-height: 790px;}
+.ui-match-submenu { text-align: center; margin-bottom: 50px;}
+.ui-match-submenu a {
+  display: block;
+  width: 268px;
+  height: 48px;
+  font-size: 20px;
+  color: #6c5bba;
+  line-height: 48px;
+  border: 1px solid #ad9ef3;
+  margin-top: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  background: url("/images/left_submenu.png") no-repeat;
+  position: relative;
+}
+.ui-match-submenu a:hover,
+a.ui-submenu-active {
+  text-decoration: none;
+  background-color: #6c5bba;
+  color: #fff;
+  border-color: #6c5bba;
+}
+.ui-submenu-1 a {background-position: 0 -1704px;}
+.ui-submenu-2 a {background-position: 0 -1800px;}
+.ui-submenu-3 a { background-position: 0 -1896px;}
+.ui-submenu-4 a {background-position: 0 -1992px;}
+.ui-submenu-5 a {background-position: 0 -2088px;}
+.ui-submenu-1 a:hover,
+.ui-submenu-1 a.ui-submenu-active {background-position: 0 -1752px;}
+.ui-submenu-2 a:hover,
+.ui-submenu-2 a.ui-submenu-active {background-position: 0 -1848px;}
+.ui-submenu-3 a:hover,
+.ui-submenu-3 a.ui-submenu-active {background-position: 0 -1944px;}
+.ui-submenu-4 a:hover,
+.ui-submenu-4 a.ui-submenu-active {background-position: 0 -2040px;}
+.ui-submenu-5 a:hover,
+.ui-submenu-5 a.ui-submenu-active {background-position: 0 -2136px;}
+a.ui-submenu-active:before,
+a.ui-submenu-active:after{
+  content: "";
+  position: absolute;
+  top: 17px;
+  width: 0;
+  height: 0;
+  border: 6px solid rgba(255, 255, 255, 0);
+  border-right-width: 0;
+}
+.ui-submenu-1 a.ui-submenu-active:before,
+.ui-submenu-2 a.ui-submenu-active:before,
+.ui-submenu-3 a.ui-submenu-active:before,
+.ui-submenu-4 a.ui-submenu-active:before,
+.ui-submenu-5 a.ui-submenu-active:before {border-left-color: #ad9ef3; right: -7px;}
+.ui-submenu-1 a.ui-submenu-active:after,
+.ui-submenu-2 a.ui-submenu-active:after,
+.ui-submenu-3 a.ui-submenu-active:after,
+.ui-submenu-4 a.ui-submenu-active:after,
+.ui-submenu-5 a.ui-submenu-active:after {border-left-color: #6c5bba; right: -6px;}
+
+
+.ui-main-details {
+  padding: 5px 25px 20px;
+  width: 670px;
+  min-height: 820px;
+}
+.ui-info-title p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 59px;
+  color: #666;
+  border-bottom: 1px dashed #cfcfcf;
+}
+.ui-info-title p>span {
+  color: #ff0000;
+  font-size: 20px;
+}
+.ui-speedy-list { padding: 23px 0 26px; border-bottom: 1px dashed #cfcfcf; width: 600px; margin: 0 auto;}
+.ui-speedy-list li {
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative\9;
+}
+.ui-speedy-list p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+}
+
+
+.ui-faq {padding: 43px 55px 30px;}
+.ui-faq a {
+  display: inline-block;
+  width: 250px;
+  background: url("/images/question.png") left no-repeat;
+  font-size: 15px;
+  line-height: 30px;
+  color: #333;
+  padding-left: 26px;
+}

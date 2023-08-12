@@ -1,0 +1,202 @@
+.ui-page-title { border-bottom: 1px dashed #a5a5a5; }
+.ui-download-detail { margin-top: 38px; }
+.ui-download-detail h2 { font-size: 55px; color: #000; margin-right: 22px; line-height: 73px; }
+.ui-download-detail-box { margin-top: 6px; }
+.ui-download-detail-box p > span { font-size: 18px; color: #666; margin-right: 18px; }
+.ui-download-detail-box h3 { font-size: 25px; color: #333; }
+.ui-download-detail-box h3 > img { vertical-align: -9px; }
+.ui-download-middle img { float: right; margin: -16px 30px 0 0; }
+.ui-download-box { width: 382px; margin-top: 45px; }
+.ui-title {
+  color: #000; margin-bottom: 10px;
+}
+.ui-goodgames .ui-title { background-position: 0 -109px; }
+.ui-download-pc { margin-bottom: 20px; }
+.ui-download-pic-1,
+.ui-download-pic-2,
+.ui-download-pic-3,
+.ui-download-pic-4 {
+  display: inline-block; background: url("/images/download.png") no-repeat;
+  width: 184px; height: 75px; font-size: 0;
+}
+.ui-download-pic-1 { background-position: 0 -250px; }
+.ui-download-pic-2 { background-position: 0 -330px; }
+.ui-download-pic-3 { background-position: 0 -410px; }
+.ui-download-pic-4 { background-position: 0 -490px; }
+.ui-download-pic-1:hover { background-position: -284px -250px; }
+.ui-download-pic-2:hover { background-position: -284px -330px; }
+.ui-download-pic-3:hover { background-position: -284px -410px; }
+.ui-download-pic-4:hover { background-position: -284px -490px; }
+.ui-goodgames-list { padding: 10px 0 20px; background: url("/images/goodgame_bg.png") bottom no-repeat; }
+.ui-goodgames-list li { float: left; padding: 10px 0 25px; width: 292px; margin: 0 23px; }
+.ui-goodgames-pic { position: relative; margin-right: 10px; }
+.ui-goodgames-pic a {
+  display: inline-block; *zoom: 1; *display: inline; font-size: 0;
+}
+.ui-goodgames-pic a:hover { text-decoration: none; }
+.ui-goodgames-pic p {
+  text-align: center; line-height: 43px;
+  background: url("/images/gamesico_bg_2.png") no-repeat;
+}
+.ui-goodgames-pic img { display: block; margin-bottom: 2px; }
+.ui-goodgames-pic i {
+  position: absolute; background: url("/images/gamesico_bg.png") no-repeat;
+  width: 100px; height: 10px; top: 76px; left: -10px;
+}
+.ui-goodgames-detail { width: 200px; }
+.ui-goodgames-detail a,
+.ui-goodgames-more a {
+  display: inline-block; *zoom: 1; *display: inline;
+  width: 94px; height: 30px; background: url("/images/goodgame_download.png") no-repeat;
+}
+.ui-goodgames-detail p {
+  font-size: 14px; line-height: 24px; height: 72px;
+  overflow: hidden; position: relative; color: #333; margin: 2px 0 15px;
+}
+.ui-goodgames-detail p:after {
+  content: ". . .";
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  background: #f3f3f3;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 10px 0 5px;
+}
+.ui-goodgames-detail a { font-size: 0; }
+a.ui-goodgames-more-intro { background-position: 0 0; margin-left: -2px; }
+a.ui-goodgames-download { background-position: 0 -40px; margin-right: -2px; }
+a.ui-goodgames-more-intro:hover { background-position: -100px 0; }
+a.ui-goodgames-download:hover { background-position: -100px -40px; }
+.ui-goodgames-more { text-align: center; font-size: 0; margin-bottom: 2px; }
+.ui-goodgames-more a {
+  display: inline-block; *zoom: 1; *display: inline; width: 246px; height: 36px;
+  background-position: 0 -80px;
+}
+.ui-goodgames-more a:hover { background-position: 0 -120px; }
+.ui-game-download,
+.ui-game-download > li,
+.ui-download-link {
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: 0;
+  -webkit-text-size-adjust: none;
+}
+.ui-game-download > li {
+  width: 172px; text-align: center;
+  margin: 15px; border: 1px solid #d07118;
+  display: inline-block; *display: inline; *zoom: 1;
+  vertical-align: top; border-radius: 6px;
+}
+.ui-game-download > li > img {
+  margin: 26px 0 11px; width: 120px; height: 120px;
+}
+.ui-game-download > li > p {
+  word-break: keep-all; white-space: nowrap;
+  height: 20px; line-height: 20px; margin: 0 0 11px;
+  text-overflow: ellipsis; overflow: hidden;
+  padding: 0 11px;
+}
+.ui-download-link {
+  background: #fb8318;
+  border-top: 1px solid #d07118;
+  border-radius: 0 0 3px 3px;
+}
+.ui-download-link > a {
+  width: 86px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  display: inline-block; *display: inline; *zoom: 1;
+  color: #fff;
+  border-radius: 0 0 0 3px;
+}
+.ui-download-link > a + a {
+  width: 85px; border-left: 1px solid #d07118;
+  border-radius: 0 0 3px 0;
+}
+.ui-download-link > a:hover {
+  background-color: #f57403;
+}
+.ui-pop {
+  border: 1px solid #eee;
+  width: 510px; margin: 0 auto;
+  position: fixed; top: 25%; left: 50%;
+  z-index: 1000; margin-left: -265px;
+  -webkit-transform: scale(0) rotate(0);
+  -moz-transform: scale(0) rotate(0);
+  -ms-transform: scale(0) rotate(0);
+  -o-transform: scale(0) rotate(0);
+  transform: scale(0) rotate(0);
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  -moz-transition: -moz-transform .3s ease-in-out;
+  -ms-transition: -ms-transform .3s ease-in-out;
+  -o-transition: -o-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+}
+.ui-pop-animate {
+  -webkit-transform: scale(1) rotate(0deg);
+  -moz-transform: scale(1) rotate(0deg);
+  -ms-transform: scale(1) rotate(0deg);
+  -o-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+}
+.ui-pop .ui-poy-title {
+  height: 28px; background: url(/images/download_popup_title_bg.gif) no-repeat center;
+  line-height: 28px; padding-left: 15px;
+}
+.ui-pop-bd { background: #fff; }
+.ui-pop-system { text-align: center; padding: 25px 0; }
+.ui-pop-other {
+  padding: 5px 10px; font-size: 0;
+  line-height: 0; letter-spacing: 0; -webkit-text-size-adjust: none;
+}
+.ui-pop-other h1 {
+  background: #eee; line-height: 30px; padding-left: 15px; margin: 15px 0;
+  display: block; font-size: 12px; font-weight: normal;
+}
+a.ui-pop-android {
+  width: 186px; height: 56px; margin-right: 15px;
+  background: url(/images/download-mobile.png) no-repeat; display: inline-block;
+}
+a.ui-pop-android:hover {
+  width: 186px; height: 56px;
+  background: url(/images/download-mobile.png) no-repeat -186px 0; display: inline-block;
+}
+a.ui-pop-ios {
+  width: 186px; height: 56px;
+  background: url(/images/download-mobile.png) no-repeat 0 -56px; display: inline-block;
+}
+a.ui-pop-ios:hover {
+  width: 186px; height: 56px;
+  background: url(/images/download-mobile.png) no-repeat -186px -56px; display: inline-block;
+}
+.ui-pop-list {
+  text-align: center;
+}
+.ui-qrcode {
+  background: url(/images/loading.gif) no-repeat center;
+  font-size: 0; line-height: 0; letter-spacing: 0; -webkit-text-size-adjust: none;
+}
+.ui-pop-close {
+  color: #999;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: center;
+}
+.ui-pop-close:hover { color: #cfcfcf; text-decoration: none; }
+.ui-mask {
+  opacity: .6; filter: alpha(opacity=70);
+  position: fixed; top: 0; left: 0;
+  z-index: 999; width: 100%; height: 100%;
+  background-color: #000;
+}

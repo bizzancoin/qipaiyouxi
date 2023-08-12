@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DayPayMessage>
+  <PayMessage MessageID="001">
+    <Content>成功接收，但未完成</Content>
+  </PayMessage>
+  <PayMessage MessageID="008">
+    <Content>充值金额与交易金额不符</Content>
+  </PayMessage>
+  <PayMessage MessageID="010">
+    <Content>重复的订单</Content>
+  </PayMessage>
+  <PayMessage MessageID="011">
+    <Content>交易正在处理中</Content>
+  </PayMessage>
+  <PayMessage MessageID="012">
+    <Content>签名校验失败</Content>
+  </PayMessage>
+  <PayMessage MessageID="013">
+    <Content>提交的商户ID不存在</Content>
+  </PayMessage>
+  <PayMessage MessageID="018">
+    <Content>交易信息不存在</Content>
+  </PayMessage>
+  <PayMessage MessageID="020">
+    <Content>其他错误</Content>
+  </PayMessage>
+  <PayMessage MessageID="023">
+    <Content>状态不确定，需客服处理</Content>
+  </PayMessage>
+  <PayMessage MessageID="055">
+    <Content>交易完成</Content>
+  </PayMessage>
+</DayPayMessage>

@@ -1,0 +1,167 @@
+html, body {
+  font-size: 100%;
+  box-sizing: border-box;
+  min-height: 100%;
+  height: 100%;
+  font-family: "微软雅黑", "Microsoft Yahei", Arial, Helvetica, sans-serif, "宋体";
+}
+main {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.ui-content {
+  height: 100%;
+  width: 100%;
+}
+.ui-main {
+  height: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 1.4375rem;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: -webkit-linear-gradient(top, #9c6ee9, #795fce 50%, #5368be);
+  vertical-align: middle;
+  position: relative;
+}
+.ui-myfeed-details {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: #000;
+  padding: 0 5px;
+  overflow: hidden;
+}
+.ui-feed-item {
+  background: #230575;
+  margin: 0.5rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.25rem 0.25rem;
+  border: #9e7ef8 2px solid;
+  border-radius: 0.5rem;
+}
+.ui-feed-item .ui-item-title {
+  width: 100%;
+  background: -webkit-linear-gradient(bottom, #836cd1, #7151a5);
+  border-radius: 0.25rem;
+  border: 1px solid #baa3ff;
+  box-sizing: border-box;
+}
+.ui-feed-item.active {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0.5rem 0;
+  border: #9e7ef8 2px solid;
+  background: #35215e;
+  border-radius: 0.5rem;
+}
+.ui-feed-item.active .ui-item-title {
+  width: 100%;
+  background: -webkit-linear-gradient(bottom, #836cd1, #7151a5);
+  border-radius: 0.25rem;
+  border: 1px solid #baa3ff;
+  box-sizing: border-box;
+}
+.ui-feed-item .ui-return{
+  color: #e1d92c;
+}
+.scroller .pullUp{
+  bottom:0;
+}
+.title-1 {
+  width: 45%;
+  text-indent: 1rem;
+}
+.title-2 {
+  width: 28%;
+  text-align: right;
+}
+.title-3 {
+  width: 24%;
+  text-align: right;
+}
+.ui-feed-item.active .ui-item-title span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.ui-feed-item .ui-item-title span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5rem;
+  color: #cda7f7;
+}
+.ui-feed-item p {
+  box-sizing: border-box;
+  color: #ceafff;
+  font-size: 1rem;
+  text-indent: 1.25rem;
+
+  word-break: break-all;
+}
+.ui-feed-item p:last-child {
+  text-align: right;
+  color: #e1d92c;
+}
+
+@media only screen and (max-width: 300px) {
+  html { font-size: 40% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 310px) and (min-width: 300px) {
+  html { font-size: 40% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 320px) and (min-width: 310px) {
+  html { font-size:40% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 360px) and (min-width: 320px) {
+  html { font-size: 50% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 360px) and (min-width: 350px) {
+  html { font-size: 50% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 410px) and (min-width: 360px) {
+  html { font-size: 60% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 480px) and (min-width: 410px) {
+  html { font-size: 70% !important; -webkit-text-size-adjust: none; }
+
+}
+@media only screen and (max-width: 560px) and (min-width: 480px) {
+  html { font-size: 70% !important; -webkit-text-size-adjust: none; }
+
+}
+@media only screen and (max-width: 570px) and (min-width: 560px) {
+  html { font-size: 70% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 640px) and (min-width: 570px) {
+  html { font-size: 70%; !important; }
+}
+@media only screen and (max-width: 640px) and (min-width: 630px) {
+  html { font-size: 70% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 710px) and (min-width: 640px) {
+  html { font-size: 75% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 1000px) and (min-width: 710px) {
+  html { font-size: 95% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen  and (max-width: 1400px) and (min-width: 1000px) {
+  html { font-size: 100% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen  and (max-width: 1900px) and (min-width: 1400px) {
+  html { font-size: 130% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 2100px) and (min-width: 1900px) {
+  html { font-size: 150% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (min-width: 2100px) {
+  html { font-size: 180% !important; -webkit-text-size-adjust: none; }
+}
+
+

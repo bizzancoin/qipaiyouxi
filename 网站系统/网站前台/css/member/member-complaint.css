@@ -1,0 +1,41 @@
+@import "member-details.css";
+.ui-main-speedy {min-height: 1326px;}
+.ui-complaint h2 {margin-bottom: 20px;}
+.ui-complaint-email p,
+.ui-complaint-basic ul,
+.ui-complaint-history ul,
+.ui-complaint-passwordcard ul { padding-left: 100px;}
+.ui-complaint span,
+.ui-complaint label {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 130px;
+  text-align: right;
+}
+.ui-complaint li {margin-bottom: 20px;}
+.ui-select-1 {width: 174px;}
+.ui-complaint-other textarea {width: 400px; height: 100px; vertical-align: top; margin-bottom: 30px;}
+.ui-complaint-submit p {text-align: center; margin-bottom: 50px;}
+.ui-complaint-history p {
+  font-size: 14px;
+  color: #ff0000;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+.ui-text-3 {
+  width: 170px;
+  background: url("/images/calendar_2.png") 148px center no-repeat;
+}
+.ui-text-3:focus {width: 172px; background: url("/images/calendar_2.png") 149px center no-repeat;}
+/*.ui-text-1:focus, .ui-text-2:focus, .ui-text-3:focus {*/
+  /*border: 2px solid #ad9ef3;*/
+  /*outline: none;*/
+  /*width: 170px;*/
+  /*height: 20px;*/
+  /*line-height: 20px;*/
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(color='#afafaf', Direction=135, Strength=3);*/
+  /*-webkit-box-shadow: 0 0 4px #ad9ef3;*/
+  /*-moz-box-shadow: 0 0 4px #ad9ef3;*/
+  /*box-shadow: 0 0 4px #ad9ef3;*/
+/*}*/

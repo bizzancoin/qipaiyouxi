@@ -1,0 +1,40 @@
+.ui-download {
+    margin-top: 15px;
+}
+.ui-main-details { padding: 14px; min-height: 632px;}
+.ui-news-details { padding: 0 11px; }
+
+.ui-monitor-title{
+  font-size: 20px;
+}
+.ui-article >p{
+  font-size: 14px;
+  padding: 10px;
+  text-indent: 28px;
+  line-height: 28px;
+}
+.ui-article >p a{
+  font-size: 14px;
+  text-decoration: underline;
+  color: #06c;
+}
+.padding-30{
+  padding-top: 30px;
+}
+.ui-question{
+  border-bottom: 1px dashed #e8e8e8;
+}
+.ui-question h3{
+  font-size: 18px;
+  color: #333;
+  text-indent: 18px;
+  padding-top: 20px;
+}
+.ui-question >p{
+  font-size: 14px;
+  padding: 10px;
+  text-indent: 28px;
+}
+.ui-question >p span{
+  color: #f60;
+}

@@ -1,0 +1,81 @@
+.ui-register {
+  padding: 48px 55px 48px;
+  background: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#afafaf', Direction=135, Strength=3);
+  -webkit-box-shadow: 0 0 6px #afafaf;
+  -moz-box-shadow: 0 0 6px #afafaf;
+  box-shadow: 0 0 6px #afafaf;
+}
+.ui-game-info {margin: 20px 200px;}
+.ui-game-info li {margin-bottom: 20px;}
+.ui-game-info i {font-style: normal; color: #ff0000; vertical-align: middle; margin-left: 5px;}
+.ui-game-info label {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 75px;
+  text-align: right;
+}
+span.ui-register-face {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+span.ui-register-face img {width: 50px; height: 50px;}
+.ui-btn-1 {margin-left: 20px;}
+span.ui-id-safe0,
+span.ui-id-safe1,
+span.ui-id-safe2,
+span.ui-id-safe3 {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 203px;
+  height: 21px;
+  vertical-align: middle;
+  background: url("/images/safe.gif") no-repeat;
+}
+span.ui-id-safe1 {background-position: 0 -21px;}
+span.ui-id-safe2 {background-position: 0 -42px;}
+span.ui-id-safe3 {background-position: 0 -63px;}
+.ui-text-1 {width: 198px;}
+.ui-text-1:focus {width: 200px;}
+.ui-select-1 {width: 201px;}
+.ui-verify img {
+  height: 30px;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+.ui-btn-1 {padding: 5px 30px; vertical-align: middle;}
+.ui-verify .ui-text-1 {width: 105px;}
+.ui-verify .ui-text-1:focus {width: 107px;}
+.ui-verify a {font-size: 12px; text-decoration: underline; vertical-align: middle;}
+.ui-verify a:hover {text-decoration: none;}
+.ui-register-submit {margin: 10px 0 0 260px;}
+.ui-register-submit input {vertical-align: middle;}
+.ui-register-submit a {color: #ff0000;}
+.ui-register-submit p {margin-bottom: 10px;}
+.ui-btn-2 {
+  display: inline-block;
+  border: 0 none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  width: 270px;
+  height: 36px;
+  background: #E2383B;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.ui-btn-2:hover {background: #EA4A4D;}

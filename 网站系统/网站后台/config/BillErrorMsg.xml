@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BillErrorMsg>
+	<ErrorMsg ErrorID="00000">
+		<Content>未知错误</Content>
+	</ErrorMsg>
+
+	<ErrorMsg ErrorID="10001">
+		<Content>不支持的字符编码格式,系统支持的字符编码格式为1.UTF-8,2.GBK,3.GB2312</Content>
+	</ErrorMsg>
+
+	<ErrorMsg ErrorID="10002">
+		<Content>不支持的返回类型,系统支持的返回类型为1.页面返回,2.后台返回,3.同时支持页面和后台返回</Content>
+	</ErrorMsg>
+
+	<ErrorMsg ErrorID="10003">
+		<Content>页面返回地址和后台返回地址不能同时为空,请使用符合URL 规则的http 或者https 地址</Content>
+	</ErrorMsg>
+
+<ErrorMsg ErrorID="10004">
+		<Content>页面返回地址和后台返回地址不能同时为空,请使用符合URL 规则的http 或者https 地址</Content>
+	</ErrorMsg>
+
+	<ErrorMsg ErrorID="10005">
+		<Content>不支持的网关接口版本号,目前系统支持的版本号为v2.0</Content>
+	</ErrorMsg>
+<ErrorMsg ErrorID="10006">
+		<Content>商户号不存在</Content>
+	</ErrorMsg>
+<ErrorMsg ErrorID="10007">
+		<Content>付款方帐号不正确</Content>
+	</ErrorMsg>
+<ErrorMsg ErrorID="10008">
+		<Content>不支持的付款方联系方式,系统支持的联系方式为1.电子邮件,2.电话.当联系内容不为空时联系方式不能为空.</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10009">
+		<Content>付款方的联系内容不正确,请输入合法的联系地址</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10010">
+		<Content>订单号不正确,系统只支持以字母,数字组合的订单号,最大长度不能超过30</Content>
+	</ErrorMsg>
+<ErrorMsg ErrorID="10011">
+		<Content>订单金额不正确,请输入以分为单位的金额</Content>
+	</ErrorMsg>
+ <ErrorMsg ErrorID="10012">
+		<Content>订单提交时间不正确,请输入以yyyyMMddhhmmss 格式的时间字符串</Content>
+	</ErrorMsg>
+ <ErrorMsg ErrorID="10013">
+		<Content>商品名称不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10014">
+		<Content>商品数量不正确</Content>
+	</ErrorMsg>
+  <ErrorMsg ErrorID="10015">
+		<Content> 商品ID 不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10016">
+		<Content>商品的描述不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10017">
+		<Content>扩展参数一不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10018">
+		<Content>扩展参数二不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10019">
+		<Content>指定的支付方式不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10020">
+		<Content>指定的支付服务代码不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10021">
+		<Content>指定的银行ID 不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10022">
+		<Content>不支持的语言类型,系统支持的语言为1.中文,2.英文</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10023">
+		<Content>不支持的签名类型,系统支持的签名类型为1.MD5</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10024">
+		<Content>商户未开通人民币网关</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10025">
+		<Content>商户未开通国际卡人民币网关</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10026">
+		<Content>商户未开通电话支付人民币网关  </Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10027">
+		<Content>不正确的pid 值</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10028">
+		<Content>不正确的国际卡支付参数,组合支付方式和支付方式必须为国际卡对应的参数</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10029">
+		<Content>不正确的神州行支付参数,组合支付方式和支付方式必须为神州行支付对应的参数</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10030">
+		<Content>不正确的代理商帐户代码</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10031">
+		<Content>商户未开通代理网关</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10032">
+		<Content>原始交易不存在</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10033">
+		<Content>订单金额不正确,请输入以元为单位的金额,最多允许两位小数</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10034">
+		<Content>手续费金额不正确,请输入以元为单位的金额,最多允许两位小数</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10035">
+		<Content>手续费总额大于或等于订单金额</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10036">
+		<Content>同一订单号禁止重复提交标志不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="10037">
+		<Content>对不起，该订单不允许重复提交，请重新下订单提交！</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20001">
+		<Content>订单信息的签名内容不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20002">
+		<Content>商户帐号已被冻结</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20003 ">
+		<Content>商户交易金额已超过限制</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20004">
+		<Content>商户制定的银行直连参数不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20005">
+		<Content>不能使用优惠券</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20006">
+		<Content>商户账户不允许收款</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20007 ">
+		<Content>账户已注销</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20008">
+		<Content>订单金额小于支付手续费,不能支付</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20009">
+		<Content>商户不允许银行直连,可能商户没有对网关定制或者定制中没有选择银行直连,请联系快钱客服</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20010">
+		<Content>您通过快钱向此商户的支付金额超过支付限额,请联系快钱客服</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20011">
+		<Content>您通过快钱向此商户的支付金额超过单笔订单的支付限额,请联系快钱客服</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20012">
+		<Content>您通过快钱向此商户的支付金额超过单日的支付总限额,请联系快钱客服</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="20013">
+		<Content>您通过快钱向此商户的支付金额超过单月的支付总限额,请联系快钱客服</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="30001">
+		<Content>银行不可用</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="30002">
+		<Content>线下支付不可用</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="30003">
+		<Content>电话银行不可用</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="30004">
+		<Content>订单已支付成功,请勿重新支付.</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="30005">
+		<Content>请填写您的电子邮箱</Content>
+	</ErrorMsg>
+    <ErrorMsg ErrorID="50001 ">
+		<Content>验证码不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50002">
+		<Content>用户不存在</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50003">
+		<Content>用户被冻结</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50004">
+		<Content>登录次数过多,用户已被锁定</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50005">
+		<Content>付款人不能和收款人相同</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50006">
+		<Content>你的操作已超时，请重新提交</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50007">
+		<Content>账户不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50008">
+		<Content>密码不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50009">
+		<Content>余额不足</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50010">
+		<Content>没有付款权限</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50011">
+		<Content>不能向个人会员付款</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50012">
+		<Content>复核错误</Content>
+	</ErrorMsg>
+	
+	<ErrorMsg ErrorID=" 50013">
+		<Content>您的快钱盾已挂失,无法登录.您可以通过取消挂失或更换后再登录</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50014">
+		<Content>您输入的快钱盾数据不正确</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50015">
+		<Content>使用快钱盾遇到未知错误，请联系快钱客服</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="50016">
+		<Content>请使用您的默认帐号登录!</Content>
+	</ErrorMsg>
+    <ErrorMsg ErrorID="50017">
+		<Content>复核重试次数超过3 次,您不能重新复核</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="60001 ">
+		<Content>货币种类不正确! 提示 1：人民币网关；3：预付费卡网关.</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="60002">
+		<Content>定单号不能为空,不能超过50 位长度</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="60003">
+		<Content>定单号只能包含数字或字母以及中划线和下划线</Content>
+	</ErrorMsg>
+ <ErrorMsg ErrorID="60004">
+		<Content>该笔交易金额格式不正确,必须为整数或者小数</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="60005">
+		<Content>该笔交易金额格式不正确,必须为整数</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="70001">
+		<Content>您输入的用户不能使用此优惠券</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="70002">
+		<Content>您尝试使用优惠错误次数超过3 次,请与快钱客服联系</Content>
+	</ErrorMsg>
+	<ErrorMsg ErrorID="70003">
+		<Content>您验证优惠券的用户错误次数超过3 次,请与快钱客服联系</Content>
+	</ErrorMsg> 
+
+</BillErrorMsg>

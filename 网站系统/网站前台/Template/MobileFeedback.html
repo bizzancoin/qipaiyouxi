@@ -1,0 +1,16 @@
+﻿{# for item in list#} 
+<div class="ui-feed-item active">
+    <div class="ui-item-title">
+        <span class="title-1">{# item.FeedbackTitle#}</span>
+        <span class="title-2">{# item.Date#}</span>
+        <span class="title-3">{# item.Time#}</span>
+    </div>
+    <div class="">
+        <p>
+            {# item.FeedbackContent#}
+        </p>
+        <p class="ui-return">{# item.RevertContent#}</p>
+        <p>{# item.RevertStatus#}</p>
+    </div>
+</div>
+{# endfor#}

@@ -1,0 +1,90 @@
+main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background: #f3f3f3;
+  max-width: 450px;
+}
+.ui-content {
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+}
+.ui-content > div {
+  text-align: center;
+  width: 50%;
+  font-size: 1rem;
+  display: table-cell;
+}
+.ui-title{
+  width: 100%;
+  text-align: center;
+  line-height: 2.5rem;
+  color: #fff;
+  font-size: 1rem;
+  border-top: 1px solid #aab3b5;
+  background: #ad98d6;
+  border-bottom: 1px solid #aab3b5;
+  box-shadow: 0 4px 7px 0 rgba(0,0,0,.19) inset;
+}
+.ui-title > span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 4.5%;
+  height: 50%;
+  margin-right: 0.5rem;
+}
+.ui-title > span img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.ui-exchange{
+  width: 100%;
+}
+.ui-exchange li{
+  padding: 0 1rem;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1rem;
+}
+.ui-exchange li em a{
+  padding: 0.25rem 2rem;
+  border-radius: 1rem;
+  background: #c4e1fa;
+  color: #333;
+  box-shadow: 0 0.75rem 0 rgba(255,255,255,.22) inset,0 4px 3px 0 rgba(0,0,0,.08);
+  text-decoration: none;
+}
+.ui-exchange li:nth-child(2n+1){
+  background: #e5e5e5;
+}
+.ui-exchange li:nth-child(2n){
+  background: #fff;
+}
+
+.ui-pay-box{
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.ui-flex-item{
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 1rem 0;
+  width: 45%;
+}
+.ui-flex-item img{
+  width: 50px;
+  height: 50px;
+}
+.ui-flex-item p{
+  margin: 0.5rem 0;
+}

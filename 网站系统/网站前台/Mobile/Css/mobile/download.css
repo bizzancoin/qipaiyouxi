@@ -1,0 +1,11 @@
+html { background:#efefef;}
+.ui-brief h3 {font-size: 1.5em; color: #3e3e3e; font-family: Microsoft Yahei, sans-serif;
+   padding: 0.5em; border-bottom: 2px solid #ccc;}
+.ui-brief p {color: #333333; font-family: arial, ËÎÌו, sans-serif; font-size: 14px; line-height: 24px;
+   padding: 10px;}
+.ui-brief { padding-bottom: 4em;}
+.ui-showcase { position: relative;}
+.ui-showcase a:link {color: #FFA803;}
+.ui-showcase a:hover {text-decoration: none;}
+.ui-showcase img { width: 100%; vertical-align: bottom;}
+.ui-showcase p {text-align: center; background: #8E3C04; font-size: 1.6em;}

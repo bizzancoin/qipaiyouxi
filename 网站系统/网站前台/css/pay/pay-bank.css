@@ -1,0 +1,96 @@
+.ui-main-speedy { min-height: 690px; padding-bottom: 50px;}
+.ui-member-submenu li { position: relative \9; }
+.ui-member-submenu p > a {
+  display: block;
+  width: 207px;
+  height: 38px;
+  font-size: 19px;
+  color: #6c5bba;
+  line-height: 38px;
+  border: 1px solid #ad9ef3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px 0 0 5px;
+  text-align: left;
+  padding: 0 10px 0 51px;
+}
+.ui-submenu-1 p > a,
+.ui-submenu-1 p i,
+a.ui-submenu-list-active i,
+.ui-submenu-list a:hover i {
+  background: url("/images/left_submenu.png") left no-repeat;
+}
+.ui-submenu-1 p > a { background-position: 0 -1072px; }
+.ui-submenu-1 p i {
+  background-position: -14px -1148px;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 9px;
+}
+.ui-submenu-1 p > a:hover,
+.ui-submenu-1 p > a.ui-submenu-active {
+  text-decoration: none;
+  background-color: #6c5bba;
+  color: #fff;
+}
+.ui-submenu-1 p > a:hover i { background-position: -14px -1186px; }
+.ui-submenu-1 p > a.ui-submenu-active i { background-position: -14px -1262px; }
+.ui-submenu-1 p > a:hover,
+.ui-submenu-1 p > a.ui-submenu-active { background-position: 0 -1110px; }
+.ui-submenu-list { padding: 0 15px 5px; }
+.ui-submenu-list li { padding: 0 5px 0 12px; border-bottom: 1px dashed #a5a5a5; }
+.ui-submenu-list a {
+  display: block;
+  width: 203px;
+  height: 39px;
+  font-size: 16px;
+  line-height: 39px;
+  padding-left: 30px;
+  color: #666;
+  text-align: left;
+  background: url("/images/li_point.png") left center no-repeat;
+}
+.ui-submenu-list a > i {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 10px;
+  height: 10px;
+  float: right;
+  margin-top: 14px;
+}
+.ui-submenu-list a:hover,
+a.ui-submenu-list-active {
+  background: url("/images/li_point_1.png") left center no-repeat;
+  text-decoration: none;
+  color: #6c5bba;
+}
+.ui-submenu-list a:hover i,
+a.ui-submenu-list-active i { background-position: 0 -1300px; }
+
+
+.ui-main-details {width: 660px; padding: 30px; min-height: 880px;}
+.ui-pay-step img {margin: 20px 0 40px;}
+.ui-pay-way h2>span {font-size: 19px; line-height: 39px; color: #ff6363;}
+.ui-pay-way form {padding: 20px 0 20px 50px;}
+.ui-pay-way li {margin-bottom: 20px;}
+.ui-pay-way label {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 95px;
+  text-align: right;
+}
+.ui-pay-way li>p {
+  font-size: 13px;
+  color: #999;
+  margin-left: 75px;
+}
+.ui-pay-way li .ui-btn-1 {margin-left: 100px; padding: 4px 20px;}
+.ui-pay-alert h2 {margin-bottom: 20px;}
+.ui-pay-alert p {margin-bottom: 10px; margin-left: 28px;}

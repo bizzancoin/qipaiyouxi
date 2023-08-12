@@ -1,0 +1,114 @@
+@import "/Mobile/Css/Agent/agentinfo.css";
+form{
+  min-height: 100%;
+  height: 100%;
+}
+#wrapper {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+table{
+  min-height: calc(100% - 64px);
+}
+form input[type="text"]{
+  width: 64.6rem;
+  background: #6974bd;
+  border-radius: 5px;
+  border: 2px solid #a5b2ee;
+  box-shadow: 2px 0 3px rgba(0,0,0,.3) inset,
+  -2px 0 3px rgba(0,0,0,.3) inset,
+   0 2px 3px rgba(0,0,0,.3) inset,
+   0 -2px 3px rgba(0,0,0,.3) inset;
+  text-align: center;
+  color: #ced3ff;
+  height: 5.8rem;
+}
+table tr:last-child span{
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #4a5fba;
+  text-indent: 0;
+  border-radius: 7px;
+  margin-left: 2rem;
+}
+form input[type="submit"]{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background: transparent url("/Mobile/Img/want_account.png") no-repeat center;
+  width: 15rem;
+  height: 5.4rem;
+  border: none;
+  background-size: contain;
+  outline: none;
+  border-radius: 10px;
+
+}
+@media screen and (max-width: 639px) {
+  table tr td {
+    font-size: 1.2rem;
+  }
+  form input[type="text"]{
+    width: 25rem;
+    height: 2rem;
+  }
+  form input[type="submit"]{
+    width: 11rem;
+    height: 3.5rem;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 959px) {
+  table tr td {
+    font-size: 1.4rem;
+  }
+  form input[type="text"]{
+    width: 30rem;
+    height: 3rem;
+  }
+  form input[type="submit"]{
+    width: 12rem;
+    height: 4rem;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+  table tr td {
+    font-size: 1.6rem;
+  }
+  form input[type="text"]{
+    width: 40rem;
+    height: 3.5rem;
+  }
+  form input[type="submit"]{
+    width: 13rem;
+    height: 4.5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  table tr td {
+    font-size: 2rem;
+  }
+  form input[type="text"]{
+    width: 54.6rem;
+    height: 4.5rem;
+  }
+  form input[type="submit"]{
+    width: 14rem;
+    height: 5rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  table tr td {
+    font-size: 2.4rem;
+  }
+  form input[type="text"]{
+    width: 64.6rem;
+    height: 5.8rem;
+  }
+    form input[type="submit"]{
+      width: 15rem;
+      height: 5.4rem;
+    }
+}

@@ -1,0 +1,26 @@
+@import "member-details.css";
+.ui-main-speedy {min-height: 850px; padding-bottom: 20px;}
+.ui-main-details {min-height: 685px;}
+.ui-main-details form span,
+.ui-main-details form label {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 75px;
+  text-align: right;
+}
+.ui-game-id,
+.ui-game-basic,
+.ui-game-info {padding: 20px 0 20px 50px;}
+.ui-game-id li {float: left; margin-right: 150px;}
+.ui-game-basic li,
+.ui-game-info li { margin-bottom: 20px;}
+.ui-game-basic,
+.ui-game-info {padding-bottom: 0;}
+.ui-textarea {
+  margin: 20px 90px;
+  width: 500px;
+  height: 150px;
+}
+.ui-data-submit {text-align: center; margin-bottom: 30px;}
+select {font-size: 13px; height: 22px;}

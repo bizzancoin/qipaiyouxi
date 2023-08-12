@@ -1,0 +1,197 @@
+.ui-main-speedy {min-height: 690px;}
+/*.ui-member-submenu li {position: relative\9;}*/
+.ui-member-submenu p>a {
+  display: block;
+  width: 207px;
+  height: 38px;
+  font-size: 19px;
+  color: #6c5bba;
+  line-height: 38px;
+  border: 1px solid #ad9ef3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px 0 0 5px;
+  text-align: left;
+  padding: 0 10px 0 51px;
+}
+.ui-submenu-1 p>a,
+.ui-submenu-2 p>a,
+.ui-submenu-3 p>a,
+.ui-submenu-4 p>a,
+.ui-submenu-5 p>a,
+.ui-submenu-1 p i,
+.ui-submenu-2 p i,
+.ui-submenu-3 p i,
+.ui-submenu-4 p i,
+.ui-submenu-5 p i,
+a.ui-submenu-list-active i,
+.ui-submenu-list a:hover i {
+  background: url("/images/left_submenu.png") left no-repeat;
+}
+.ui-submenu-1 p>a {background-position: 0 -768px;}
+.ui-submenu-2 p>a {background-position: 0 -844px;}
+.ui-submenu-3 p>a {background-position: 0 -920px;}
+.ui-submenu-4 p>a {background-position: 0 -1072px;}
+.ui-submenu-5 p>a {background-position: 0 -996px;}
+.ui-submenu-1 p i,
+.ui-submenu-2 p i,
+.ui-submenu-3 p i,
+.ui-submenu-4 p i,
+.ui-submenu-5 p i {
+  background-position: -14px -1148px;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 9px;
+}
+.ui-submenu-1 p>a:hover,
+.ui-submenu-2 p>a:hover,
+.ui-submenu-3 p>a:hover,
+.ui-submenu-4 p>a:hover,
+.ui-submenu-5 p>a:hover,
+.ui-submenu-1 p>a.ui-submenu-active,
+.ui-submenu-2 p>a.ui-submenu-active,
+.ui-submenu-3 p>a.ui-submenu-active,
+.ui-submenu-4 p>a.ui-submenu-active,
+.ui-submenu-5 p>a.ui-submenu-active {
+  text-decoration: none;
+  background-color: #6c5bba;
+  color: #fff;
+}
+.ui-submenu-1 p>a:hover i,
+.ui-submenu-2 p>a:hover i,
+.ui-submenu-3 p>a:hover i,
+.ui-submenu-4 p>a:hover i,
+.ui-submenu-5 p>a:hover i { background-position: -14px -1186px;}
+.ui-submenu-1 p>a.ui-submenu-active i,
+.ui-submenu-2 p>a.ui-submenu-active i,
+.ui-submenu-3 p>a.ui-submenu-active i,
+.ui-submenu-4 p>a.ui-submenu-active i,
+.ui-submenu-5 p>a.ui-submenu-active i {background-position: -14px -1262px;}
+.ui-submenu-1 p>a:hover,
+.ui-submenu-1 p>a.ui-submenu-active {background-position: 0 -806px;}
+.ui-submenu-2 p>a:hover,
+.ui-submenu-2 p>a.ui-submenu-active {background-position: 0 -882px;}
+.ui-submenu-3 p>a:hover,
+.ui-submenu-3 p>a.ui-submenu-active {background-position: 0 -958px;}
+.ui-submenu-4 p>a:hover,
+.ui-submenu-4 p>a.ui-submenu-active {background-position: 0 -1110px;}
+.ui-submenu-5 p>a:hover,
+.ui-submenu-5 p>a.ui-submenu-active {background-position: 0 -1034px;}
+
+.ui-submenu-list {padding: 0 15px 5px;}
+.ui-submenu-list li {padding: 0 5px 0 12px; border-bottom: 1px dashed #a5a5a5;}
+.ui-submenu-list a {
+  display: block;
+  width: 203px;
+  height: 39px;
+  font-size: 16px;
+  line-height: 39px;
+  padding-left: 30px;
+  color: #666;
+  text-align: left;
+  background: url("/images/li_point.png") left center no-repeat;
+}
+.ui-submenu-list a>i {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 10px;
+  height:10px;
+  float: right;
+  margin-top: 14px;
+}
+.ui-submenu-list a:hover,
+a.ui-submenu-list-active {
+  background: url("/images/li_point_1.png") left center no-repeat;
+  text-decoration: none;
+  color: #6c5bba;
+}
+.ui-submenu-list a:hover i,
+a.ui-submenu-list-active i { background-position: 0 -1300px;}
+
+.ui-main-details {padding: 5px 25px 0; width: 670px;}
+.ui-info-title h2 {
+  font-size: 19px;
+  color: #6c5bba;
+  line-height: 39px;
+  border-bottom: 1px solid #cfcfcf;
+}
+.ui-info-title p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 59px;
+  color: #666;
+  border-bottom: 1px dashed #cfcfcf;
+}
+.ui-info-title p>span { color: #ff0000; font-size: 20px;}
+.ui-info-detail {padding: 25px 30px 22px; border-bottom: 1px dashed #cfcfcf;}
+.ui-info-face {}
+.ui-face-pic {
+  width: 96px;
+  height: 96px;
+  text-align: center;
+  line-height: 96px;
+  border: 1px solid #ccc;
+  padding: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.ui-face-pic img {vertical-align: middle;}
+.ui-face-change {
+  width: 106px;
+  height: 31px;
+}
+.ui-face-change a {
+  display: block;
+  width: 106px;
+  height: 31px;
+  font-size: 0;
+  background: url("/images/face_change.png") no-repeat;
+  margin-top: 5px;
+}
+.ui-face-change a:hover {background-position: -114px 0;}
+.ui-info-id {
+  width: 460px;
+  margin-left: 39px;
+}
+.ui-info-id li {float: left;}
+.ui-info-id p,
+.ui-info-game p {
+  font-size: 16px;
+  line-height: 35px;
+  color: #333;
+  width: 220px;
+}
+.ui-info-id p>span,
+.ui-info-game p>span {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 65px;
+  text-align: right;
+  font-size: 16px;
+  color: #999;
+  margin-right: 12px;
+}
+p.ui-signature {
+  width: 400px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.ui-grade-game img {vertical-align: -3px;}
+.ui-grade-vip img {vertical-align: -8px;}
+.ui-info-game {padding: 28px 0 26px; border-bottom: 1px dashed #cfcfcf;}
+.ui-info-game ul {margin-left: 127px;}
+.ui-info-game ul>li {float: left;}
+.ui-info-game p>span { width: 85px;}
+
+.ui-speedy-list {padding: 34px 0 21px 55px;}
+.ui-speedy-list li {margin-right: 40px; position: relative\9;}
+.ui-speedy-list p { font-size: 14px; line-height: 18px; color: #333; white-space:nowrap;}

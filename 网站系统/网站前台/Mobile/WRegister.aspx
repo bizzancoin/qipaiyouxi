@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WRegister.aspx.cs" Inherits="Game.Web.Mobile.WRegister" %>

@@ -1,0 +1,59 @@
+.ui-main-speedy {padding-top: 0; width: 280px; min-height: 790px;}
+.ui-match-submenu { text-align: center; margin-bottom: 50px;}
+.ui-match-submenu a {
+  display: block;
+  width: 268px;
+  height: 48px;
+  font-size: 20px;
+  color: #6c5bba;
+  line-height: 48px;
+  border: 1px solid #ad9ef3;
+  margin-top: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  background: url("/images/left_submenu.png") no-repeat;
+  position: relative;
+}
+.ui-match-submenu a:hover,
+a.ui-submenu-active {
+  text-decoration: none;
+  background-color: #6c5bba;
+  color: #fff;
+}
+.ui-submenu-1 a {background-position: 0 -1320px;}
+.ui-submenu-2 a {background-position: 0 -1416px;}
+.ui-submenu-3 a { background-position: 0 -1512px;}
+.ui-submenu-4 a {background-position: 0 -1608px;}
+.ui-submenu-1 a:hover,
+.ui-submenu-1 a.ui-submenu-active {background-position: 0 -1368px;}
+.ui-submenu-2 a:hover,
+.ui-submenu-2 a.ui-submenu-active {background-position: 0 -1464px;}
+.ui-submenu-3 a:hover,
+.ui-submenu-3 a.ui-submenu-active {background-position: 0 -1560px;}
+.ui-submenu-4 a:hover,
+.ui-submenu-4 a.ui-submenu-active {background-position: 0 -1656px;}
+a.ui-submenu-active:before,
+a.ui-submenu-active:after{
+  content: "";
+  position: absolute;
+  top: 17px;
+  width: 0;
+  height: 0;
+  border: 6px solid rgba(255, 255, 255, 0);
+  border-right-width: 0;
+}
+.ui-submenu-1 a.ui-submenu-active:before,
+.ui-submenu-2 a.ui-submenu-active:before,
+.ui-submenu-3 a.ui-submenu-active:before,
+.ui-submenu-4 a.ui-submenu-active:before {border-left-color: #ad9ef3; right: -7px;}
+.ui-submenu-1 a.ui-submenu-active:after,
+.ui-submenu-2 a.ui-submenu-active:after,
+.ui-submenu-3 a.ui-submenu-active:after,
+.ui-submenu-4 a.ui-submenu-active:after {border-left-color: #6c5bba; right: -6px;}
+
+.ui-main-details {width: 640px; height: 750px; padding: 40px 40px 0;}
+.ui-us-pic {font-size: 0; margin-bottom: 34px;}
+.ui-about-us {padding: 0 20px;}
+.ui-about-us p {font-size: 15px; line-height: 30px; color: #000; margin-bottom: 30px; text-indent: 30px;}

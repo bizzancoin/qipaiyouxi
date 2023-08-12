@@ -1,0 +1,135 @@
+html, body {
+  font-size: 100%;
+  box-sizing: border-box;
+  min-height: 100%;
+  height: 100%;
+  font-family: "微软雅黑", "Microsoft Yahei", Arial, Helvetica, sans-serif, "宋体";
+}
+main {
+  background: -webkit-linear-gradient(top, #7654bb, #393387 64%, #21215e);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  margin: auto;
+}
+
+form.ui-content {
+  display: inline-table;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+}
+.ui-feed-info {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.ui-right-content{
+  width: 83%;
+  min-height: 35%;
+  height: 35%;
+  margin: 0 auto;
+  padding-top:3rem;
+}
+textarea.ui-right-details{
+  width: 100%;
+  height: 100%;
+  border: 4px solid #a69ae8;
+  box-shadow: 0 0 7px rgba(20,21,58,0.6) inset;
+  border-radius: 1rem;
+  background: #41387f;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 1.5rem;
+  text-indent: 32px;
+  color: #c3c7ef;
+  padding: 1rem 0.5rem;
+}
+.ui-tel-num{
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding:1.125rem 0 1.75rem;
+  font-weight: bold;
+}
+#ui-send{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background: transparent url("/Mobile/Img/mobile/send.png") no-repeat center;
+  width: 15rem;
+  height: 5.4rem;
+  border: none;
+  background-size: contain;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+a.ui-my-feedback{
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  font-size: 1.8rem;
+  color: #facc26;
+  font-weight: bold;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 300px) {
+  html { font-size: 60% !important; -webkit-text-size-adjust: none; }
+ }
+@media only screen and (max-width: 310px) and (min-width: 300px) {
+  html { font-size: 60% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 320px) and (min-width: 310px) {
+  html { font-size: 60% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 360px) and (min-width: 320px) {
+  html { font-size: 60% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 360px) and (min-width: 350px) {
+  html { font-size: 60% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+  html { font-size: 70% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 480px) and (min-width: 420px) {
+  html { font-size: 70% !important; -webkit-text-size-adjust: none; }
+
+}
+@media only screen and (max-width: 560px) and (min-width: 480px) {
+  html { font-size: 70% !important; -webkit-text-size-adjust: none; }
+
+}
+@media only screen and (max-width: 570px) and (min-width: 560px) {
+  html { font-size: 70% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 640px) and (min-width: 570px) {
+  html { font-size: 70%; !important; }
+}
+@media only screen and (max-width: 640px) and (min-width: 630px) {
+  html { font-size: 70% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 710px) and (min-width: 640px) {
+  html { font-size: 75% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 1000px) and (min-width: 710px) {
+  html { font-size: 95% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen  and (max-width: 1400px) and (min-width: 1000px) {
+  html { font-size: 100% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen  and (max-width: 1900px) and (min-width: 1400px) {
+  html { font-size: 130% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (max-width: 2100px) and (min-width: 1900px) {
+  html { font-size: 150% !important; -webkit-text-size-adjust: none; }
+}
+@media only screen and (min-width: 2100px) {
+  html { font-size: 180% !important; -webkit-text-size-adjust: none; }
+}
+
+

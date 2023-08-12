@@ -1,0 +1,15 @@
+.ui-agreement {
+  padding: 48px 55px 48px;
+  background: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#afafaf', Direction=135, Strength=3);
+  -webkit-box-shadow: 0 0 6px #afafaf;
+  -moz-box-shadow: 0 0 6px #afafaf;
+  box-shadow: 0 0 6px #afafaf;
+  line-height: 35px;
+}
+.ui-title-solid {text-align: center;}
+.ui-agreement h4 {font-size: 15px; font-weight: bold; line-height: 30px;}
+.ui-agreement p {font-size: 14px; color: #333; line-height: 35px;}

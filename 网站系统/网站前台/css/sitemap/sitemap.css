@@ -1,0 +1,29 @@
+.ui-sitemap-list {
+  padding: 46px 55px 52px;
+  background-color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#afafaf', Direction=135, Strength=3);
+  -webkit-box-shadow: 0 0 6px #afafaf;
+  -moz-box-shadow: 0 0 6px #afafaf;
+  box-shadow: 0 0 6px #afafaf;
+}
+.ui-sitemap-list ul {padding-left: 45px;}
+.ui-sitemap-list .ui-about-password ul {padding-right: 280px;}
+.ui-sitemap-list li {margin-bottom: 20px;}
+.ui-sitemap-list a {font-size: 15px; line-height: 30px; color: #4c39aa;}
+.ui-site-map ul>li,
+.ui-personal-center ul>li,
+.ui-about-password ul>li,
+.ui-account-info ul>li,
+.ui-pay-center ul>li,
+.ui-service-center ul>li {float: left; margin-bottom: 0; margin-right: 30px;}
+.ui-site-map ul>li {margin-right: 54px;}
+.ui-title {margin-bottom: 6px;}
+.ui-site-map .ui-title {background-position: 0 -340px;}
+.ui-personal-center .ui-title {background-position: 0 -220px;}
+.ui-about-password .ui-title {background-position: 0 -380px;}
+.ui-account-info .ui-title {background-position: 0 -300px;}
+.ui-pay-center .ui-title {background-position:  0 -260px;}
+.ui-service-center .ui-title {background-position: 0 -420px;}

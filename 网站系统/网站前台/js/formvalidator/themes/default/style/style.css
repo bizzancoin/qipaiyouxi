@@ -1,0 +1,143 @@
+@charset "utf-8";
+input.ui-fv-input,
+input.ui-fv-hover,
+input.ui-fv-focus,
+input.ui-fv-error {
+    /*-moz-transition-duration: 0.5s;*/
+    /*-moz-transition-property: all;*/
+    /*-webkit-transition-duration: 0.5s;*/
+    /*-webkit-transition-property: all;*/
+    /*-o-transition-duration: 0.5s;*/
+    /*-o-transition-property: all;*/
+    /*-ms-transition-duration: 0.5s;*/
+    /*-ms-transition-property: all;*/
+    /*transition-duration: 0.5s;*/
+    /*transition-property: all;*/
+    /*outline: none;*/
+}
+input.ui-fv-hover {
+    border-color: #ababab #ccc #ccc #ababab;
+}
+input.ui-fv-focus {
+    border-color: #377bcb;
+}
+input.ui-fv-error {
+    border-color: #da1111;
+}
+/* 固定提示层样式 */
+.ui-fv-prompttip,
+.ui-fv-errortip,
+.ui-fv-successtip {
+    padding-left: 5px; word-break: keep-all; white-space: nowrap;
+    height: 30px;
+}
+.ui-fv-errmsg,
+.ui-fv-okmsg,
+.ui-fv-arrow {
+    padding: 0 6px;
+}
+.ui-fv-errmsg {
+    color: #da1111;
+}
+.ui-fv-okmsg {
+    color: #008000;
+}
+.ui-fv-message {
+    padding: 0 6px;color: #666;
+}
+
+/*密码强度样式*/
+.psw-state {
+    line-height: 22px;
+    color: #666;
+    font-family: verdana, arial, sans-serif;
+    text-align: left;
+    font-size: 12px;
+    border-bottom: 0;
+    border-left: 0;
+    padding-bottom: 0;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-top: 0;
+    border-right: 0;
+    padding-top: 0;
+    vertical-align: middle;
+    overflow: visible;
+}
+.st1 {
+    line-height: 166.6%; font-family: verdana, arial, sans-serif;
+    text-align: left; font-size: 12px; font-style: normal;
+    text-decoration: none; color: #f00;
+}
+.st2 {
+    line-height: 166.6%; font-family: verdana, arial, sans-serif;
+    text-align: left; font-size: 12px; font-style: normal;
+    text-decoration: none; color: #13a821;
+}
+.progress-image {
+    display: inline-block; *zoom: 1;
+    vertical-align: middle;
+    background: url(../images/pswState.gif); background-repeat: no-repeat;
+    margin: 0 8px; width: 165px; height: 5px;
+}
+.prog0 { background-position: 0 0; }
+.prog1 { background-position: 0 -22px; }
+.prog2 { background-position: 0 -44px; }
+.prog3 { background-position: 0 -65px; }
+.ui-fv-singletip {
+    background: #fff;
+    padding: 3px 6px;
+    line-height: 22px;
+    border: 1px solid #bbb;
+}
+.ui-fv-autotip.onShow .icon,
+.ui-fv-autotip.onFocus .icon,
+.ui-fv-autotip.onError .icon,
+.ui-fv-autotip.onCorrect .icon,
+.ui-fv-autotip.onLoad .icon,
+.ui-fv-singletip .onShow,
+.ui-fv-singletip .onFocus,
+.ui-fv-singletip .onError,
+.ui-fv-singletip .onCorrect,
+.ui-fv-singletip .onLoad {
+    display: inline-block; *zoom: 1;
+    width: 14px; height: 15px;
+    vertical-align: middle;margin: 0;
+    padding: 0 5px 0 0;
+}
+
+.ui-fv-autotip.onShow .icon,
+.ui-fv-singletip .onShow {
+    background: url(../images/onShow.gif) center no-repeat;
+}
+.ui-fv-autotip.onFocus .icon,
+.ui-fv-singletip .onFocus {
+    background: url(../images/onFocus.gif) center no-repeat;
+}
+.ui-fv-autotip.onError .icon,
+.ui-fv-singletip .onError {
+    background: url(../images/onError.gif) center no-repeat;
+}
+.ui-fv-autotip.onCorrect .icon,
+.ui-fv-singletip .onCorrect {
+    background: url(../images/onCorrect.gif) center no-repeat;
+}
+.ui-fv-autotip.onload .icon,
+.ui-fv-singletip .onload {
+    width: 16px; height: 16px;
+    background: #e9ffeb url(../images/onLoad.gif) center no-repeat;
+}
+
+
+.onShow, .onFocus, .onError, .onCorrect, .onLoad{ line-height: 0;}
+
+
+
+
+
+
+
+
+
+

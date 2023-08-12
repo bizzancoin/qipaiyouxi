@@ -1,0 +1,14 @@
+@import "service.css";
+.ui-privilege {padding: 37px 21px 14px;}
+.ui-privilege-title {font-size: 0; padding: 6px 0 4px; border: dashed #c7c7c7; border-width: 1px 0; margin-bottom: 38px;}
+.ui-privilege-detail {font-size: 0; margin-bottom: 42px;}
+.ui-privilege-tips {
+  font-size: 14px; line-height: 20px; color: #000; font-weight: bold;
+  text-indent: 22px; padding-bottom: 6px; border-bottom: 1px dashed #c7c7c7;
+}
+.ui-privilege-list {padding-top: 36px;}
+.ui-privilege-list li {float: left; min-height: 190px; width: 288px;}
+.ui-privilege-list li.ui-list-margin {margin-right: 52px;}
+.ui-privilege-pic {font-size: 0; margin-bottom: 9px;}
+.ui-privilege-list li>p {font-size: 12px; line-height: 16px; color: #d5725f;}
+.ui-privilege-list li>p.ui-privilege-explain {margin-bottom: 8px; text-indent: 24px; color: #000; font-weight: bold;}

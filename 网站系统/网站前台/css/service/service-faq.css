@@ -1,0 +1,40 @@
+@import "service.css";
+.ui-news-paging { text-align: center; position: relative\9; margin-bottom: 30px;}
+.ui-news-paging a {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 15px;
+  color: #6c5bba;
+  border: 1px solid #ad9ef3;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+.ui-news-paging a.ui-news-paging-prev,
+.ui-news-paging a.ui-news-paging-next { width: 84px; }
+.ui-news-paging a:hover,
+a.ui-news-paging-active {
+  color: #fff;
+  background: #6c5bba;
+  text-decoration: none;
+}
+.ui-faq-list {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px 30px;
+  margin-bottom: 40px;
+  max-height: 550px;
+  overflow: hidden;
+}
+.ui-faq-list li {
+  border-bottom: 1px dashed #ececec;
+  line-height: 40px;
+  padding-left:30px;
+  background: url("/images/faq_list.png") left no-repeat;
+}
+.ui-faq-list li>a {color: #333;}

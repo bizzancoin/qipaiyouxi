@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BillPayType>
+	<PayType payTypeID="00">
+		<Content>显示快钱各支付方式列表</Content>
+	</PayType>
+
+	<PayType payTypeID="10">
+		<Content>显示银行卡支付方式</Content>
+	</PayType>
+
+	<PayType payTypeID="11">
+		<Content>显示电话银行支付方式</Content>
+	</PayType>
+
+	<PayType payTypeID="12">
+		<Content>显示快钱账户支付方式</Content>
+	</PayType>
+
+	<PayType payTypeID="13">
+		<Content>显示线下支付方式</Content>
+	</PayType>
+
+	<PayType payTypeID="14">
+		<Content>显示B2B 支付</Content>
+	</PayType>
+	
+</BillPayType>

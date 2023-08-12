@@ -1,0 +1,10 @@
+@import "game.css";
+h2.ui-title-solid {margin-bottom: 20px;}
+.ui-game-photo p {text-align: center; font-size: 0;}
+.ui-game-intro p,
+.ui-game-rules p {
+  font-size: 15px;
+  line-height: 25px;
+  text-indent: 30px;
+}
+.ui-game-rules h4 {font-size: 15px; font-weight: 600; padding: 0 15px; margin-bottom: 15px;}
