@@ -1,25 +1,25 @@
 # 游戏源码,源码+搭建+售后服务-可二次开发
 
 
-![1](game\1.png)
+![1](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/1.png)
 
-![1](game\2.png)
+![3](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/2.png)
 
-![1](game\3.png)
+![2](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/3.png)
 
-![1](game\4.png)
+![4](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/4.png)
 
-![1](game\5.png)
+![5](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/5.png)
 
-![1](game\6.png)
+![6](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/6.png)
 
-![1](game\7.png)
+![7](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/7.png)
 
-![1](game\8.png)
+![8](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/8.png)
 
-![1](game\9.png)
+![9](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/9.png)
 
-![1](game\10.png)
+![10](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/10.png)
 
 # 介绍：
 
