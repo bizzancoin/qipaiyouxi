@@ -1,6 +1,12 @@
 # 游戏源码,源码+搭建+售后服务-可二次开发
 
 
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=200&size=16&pause=1000&width=502&lines=Hey%EF%BC%8CI+am+%E5%98%89%E7%A6%BE%E6%9C%9B%E5%B2%97+My+Telegram+is+%40usdtvps666)](https://git.io/typing-svg)
+
+
+
+
 ![1](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/1.png)
 
 ![3](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/2.png)
@@ -20,6 +26,8 @@
 ![9](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/9.png)
 
 ![10](https://raw.githubusercontent.com/bizzancoin/qipaiyouxi/main/game/10.png)
+
+
 
 # 介绍：
 
