@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- 游戏的帧数是固定FPS:30,那么下面的所设置的值大部分是以1帧为标准，比如鱼的速度是5,那么1秒内会移动5*30 -->
+<!-- 如果没做特殊说明 所有的速度 距离 半径这类的值都应当以1440为标准来设置 比如子弹的速度是10 那么在800*600的分辨率下就是 10 * 800 / 1440 -->
+<Config>
+	<!-- 金币和渔币的兑换(金币:渔币) exchangeCount:每次兑换数量 -->
+	<ScoreExchange exchangeRatio="1:1" exchangeCount="500000" />
+
+
+	<!-- totalReturnRate:总体返还分数百分比 bigFishReturnRate：大鱼返还百分比 totalProbability：总体概率 totalProbabilityRange：总体概率千分比范围 otalProbabilityChange:总体概率改变间隔秒 -->
+	<ScoreControl totalReturnRate="0.05" totalProbability="1.000" />
+	<YuZhen yuzhen='300' />
+	<!-- 炮的倍数 -->
+	<Cannon cannonMultiple="1000,10000" />
+
+	<!-- 大鱼小鱼默认库存 第一个大鱼，第二个小鱼-->
+	<FishStock Stock="100000000,100000000" />
+
+	<!-- 大鱼库存(不能超过10个):astockScore库存分数,大于些值执行相应概率,从最大的开始判断,小于0将打不中鱼 -->
+	<StockBig>
+		<key stockScore="0" increaseProbability="0.1" />
+		<key stockScore="10000000" increaseProbability="0.8" />
+		<key stockScore="20000000" increaseProbability="0.845" />
+                <key stockScore="30000000" increaseProbability="0.88" />
+                <key stockScore="40000000" increaseProbability="0.9" />
+		<key stockScore="50000000" increaseProbability="0.95" />
+                <key stockScore="60000000" increaseProbability="1.0" />
+                <key stockScore="70000000" increaseProbability="1.10" />
+                <key stockScore="75000000" increaseProbability="1.19" />
+		<key stockScore="80000000" increaseProbability="1.29" />
+		<key stockScore="90000000" increaseProbability="1.38" />
+		<key stockScore="95000000" increaseProbability="1.45" />
+		
+	</StockBig> 
+
+	<!-- 小鱼库存(不能超过10个):stockScoreSmall库存分数,大于些值执行相应概率,从最大的开始判断,小于0将打不中鱼 -->
+	<StockSmall>
+		<key stockScoreSmall="0" increaseProbabilitySmall="0.1" />
+		<key stockScoreSmall="10000000" increaseProbabilitySmall="0.8" />
+		<key stockScoreSmall="20000000" increaseProbabilitySmall="0.845" />
+                <key stockScoreSmall="30000000" increaseProbabilitySmall="0.88" />
+                <key stockScoreSmall="40000000" increaseProbabilitySmall="0.92" />
+		<key stockScoreSmall="50000000" increaseProbabilitySmall="0.97" />
+                <key stockScoreSmall="60000000" increaseProbabilitySmall="1.03" />
+                <key stockScoreSmall="70000000" increaseProbabilitySmall="1.048" />
+                <key stockScoreSmall="80000000" increaseProbabilitySmall="1.09" />
+                <key stockScoreSmall="85000000" increaseProbabilitySmall="1.134" />
+ 		<key stockScoreSmall="90000000" increaseProbabilitySmall="1.17" />
+		<key stockScoreSmall="95000000" increaseProbabilitySmall="1.21" />
+	</StockSmall>   
+	
+	
+	<!-- 总库存:stockScoreSmall库存分数,大于些值执行相应概率,从最大的开始判断,小于0将打不中鱼 -->
+	<StockAll>
+		<key stockScoreAll="0" increaseProbabilityAll="0.1" />
+		<key stockScoreAll="10000000" increaseProbabilityAll="0.8" />
+		<key stockScoreAll="20000000" increaseProbabilityAll="0.845" />
+                <key stockScoreAll="30000000" increaseProbabilityAll="0.88" />
+                <key stockScoreAll="40000000" increaseProbabilityAll="0.92" />
+		<key stockScoreAll="50000000" increaseProbabilityAll="0.97" />
+                <key stockScoreAll="60000000" increaseProbabilityAll="1.03" />
+                <key stockScoreAll="70000000" increaseProbabilityAll="1.048" />
+                <key stockScoreAll="80000000" increaseProbabilityAll="1.09" />
+                <key stockScoreAll="85000000" increaseProbabilityAll="1.134" />
+ 		<key stockScoreAll="90000000" increaseProbabilityAll="1.17" />
+		<key stockScoreAll="10000000" increaseProbabilityAll="1.21" />
+		<key stockScoreAll="11000000" increaseProbabilityAll="1.21" />
+		<key stockScoreAll="12000000" increaseProbabilityAll="1.21" />
+		<key stockScoreAll="13000000" increaseProbabilityAll="1.21" />
+		<key stockScoreAll="14000000" increaseProbabilityAll="1.21" />
+		<key stockScoreAll="15000000" increaseProbabilityAll="1.21" />
+		<key stockScoreAll="16000000" increaseProbabilityAll="1.21" />
+		<key stockScoreAll="17000000" increaseProbabilityAll="1.21" />
+		<key stockScoreAll="18000000" increaseProbabilityAll="1.21" />
+		<key stockScoreAll="19000000" increaseProbabilityAll="1.21" />
+	</StockAll>   
+
+	<!-- 赢分限制(不能超过20个):winScore当前赢分,大于下面的值执行减少相应概率,从最大的开始判断 1表示概率将是0 -->
+	<WinScoreLimit>
+		<key winScore="-20000" decreaseProbability="0.00" />
+                <key winScore="-200000" decreaseProbability="0.12" />
+                <key winScore="-800000" decreaseProbability="0.15" />
+                <key winScore="-2800000" decreaseProbability="0.17" />
+		<key winScore="-6800000" decreaseProbability="0.19" />
+                <key winScore="-10800000" decreaseProbability="0.2" />
+                <key winScore="-14800000" decreaseProbability="0.21" />
+                <key winScore="-18800000" decreaseProbability="0.23" />
+		<key winScore="-22800000" decreaseProbability="0.25" />
+		<key winScore="0" decreaseProbability="0.00" />
+                <key winScore="200000" decreaseProbabity="0.015" />
+		<key winScore="800000" decreaseProbability="0.03" />
+                <key winScore="2400000" decreaseProbability="0.045" />
+                <key winScore="6800000" decreaseProbability="0.06" />
+		<key winScore="10800000" decreaseProbability="0.075" />
+		<key winScore="14800000" decreaseProbability="0.09" />
+                <key winScore="18800000" decreaseProbability="0.105" />
+		<key winScore="22800000" decreaseProbability="0.12" />
+                <key winScore="26800000" decreaseProbability="0.135" />
+ 		<key winScore="30000000" decreaseProbability="0.135" />
+	</WinScoreLimit>
+
+
+        <!-- 炸弹(局部炸弹,超级炸弹) 当库存小于此值炸弹被击中的几率为0 -->
+        <Bomb BombProbability="1000000,4000000" />
+
+	<!-- 彩金池大于（第一值）开启彩金 （第二值）为中彩金最小值 （第三值）为中彩金最大值 税收的千分之（第四值）作为彩金池分-->
+	<Setcaijin Caijin="1000000,1000000,3000000,1000" />
+
+        <!--RobotScoreMin:机器人的分数小于该值取款 RobotScoreMax:机器人的分数大于该值存款 -->
+        <!--RobotBankGet:取款最小数额 RobotBankGetBanker:取款最大数额(此数值一定要大于RobotBankGet) RobotBankStoMul:存款百分比，百分之N-->
+        <AndroidBankOperate RobotScoreMin="10000000" RobotScoreMax="100000000" RobotBankGet="30000000" RobotBankGetBanker="9000000" RobotBankStoMul="100"/>
+
+
+        <!-- 每张桌子机器人最小个数最大个数 -->
+        <AndroidCount count="8,8" />
+
+	<!-- kind: 对应 CMD_Fish.h文件的FishKind的枚举值 不能更改 name:只作为描述 speed:鱼的速度 multiple:鱼的倍数 BoundingBox:鱼的边框 hitRadius:击中半径 captureProbability:捕获概率(0-1)  -->
+	<!-- 特殊鱼 鱼王和超级炸弹是圆的 用BoundingBox的第1个参数作为直径 -->
+	<!-- 特殊鱼 局部炸弹的BoundingBox的后2个参数表示炸弹的涉及范围 -->
+	<!-- 特殊鱼 FISH_KIND_18(鲨鱼)FISH_KIND_19(龙)和FISH_KIND_21(李逵)的multiple是随机倍数的2个参数表示最小和最大 -->
+	<Fish kind="0" name="fish1" speed="5" multiple="2" BoundingBox="55,15" hitRadius="10" captureProbability="0.5" caijin="0.0017" />
+	<Fish kind="1" name="fish2" speed="5" multiple="2" BoundingBox="60,25" hitRadius="10" captureProbability="0.5" caijin="0.0017" />
+	<Fish kind="2" name="fish3" speed="5" multiple="3" BoundingBox="80,32" hitRadius="10" captureProbability="0.3333" caijin="0.0025" />
+	<Fish kind="3" name="fish4" speed="5" multiple="4" BoundingBox="70,43" hitRadius="10" captureProbability="0.25" caijin="0.0033" />
+	<Fish kind="4" name="fish5" speed="5" multiple="5" BoundingBox="80,54" hitRadius="10" captureProbability="0.2" caijin="0.0041" />
+	<Fish kind="5" name="fish6" speed="5" multiple="6" BoundingBox="90,70" hitRadius="10" captureProbability="0.1666" caijin="0.005" />
+	<Fish kind="6" name="fish7" speed="5" multiple="7" BoundingBox="90,40" hitRadius="10" captureProbability="0.1428" caijin="0.0058" />
+	<Fish kind="7" name="fish8" speed="5" multiple="8" BoundingBox="120,55" hitRadius="10" captureProbability="0.125" caijin="0.0067" />
+	<Fish kind="8" name="fish9" speed="5" multiple="9" BoundingBox="150,47" hitRadius="10" captureProbability="0.1111" caijin="0.0075" />
+	<Fish kind="9" name="fish10" speed="5" multiple="10" BoundingBox="110,112" hitRadius="10" captureProbability="0.1" caijin="0.0083" />
+	<Fish kind="10" name="fish11" speed="4" multiple="12" BoundingBox="145,80" hitRadius="10" captureProbability="0.0833" caijin="0.01" />
+	<Fish kind="11" name="fish12" speed="4" multiple="15" BoundingBox="120,150" hitRadius="10" captureProbability="0.0666" caijin="0.0125" />
+	<Fish kind="12" name="fish13" speed="4" multiple="18" BoundingBox="180,70" hitRadius="10" captureProbability="0.0555" caijin="0.015" />
+	<Fish kind="13" name="fish14" speed="4" multiple="20" BoundingBox="255,88" hitRadius="10" captureProbability="0.05" caijin="0.0167" />
+	<Fish kind="14" name="fish15" speed="4" multiple="25" BoundingBox="180,180" hitRadius="10" captureProbability="0.04" caijin="0.0208" />
+	<Fish kind="15" name="fish16" speed="3" multiple="30" BoundingBox="270,80" hitRadius="10" captureProbability="0.0333" caijin="0.025" />
+	<Fish kind="16" name="fish17" speed="3" multiple="35" BoundingBox="290,90" hitRadius="10" captureProbability="0.0285" caijin="0.0292" />
+	<Fish kind="17" name="鲨鱼" speed="3" multiple="40,120" BoundingBox="500,170" hitRadius="10" captureProbability="0.0125" caijin="0.0668" />
+	<Fish kind="18" name="龙" speed="2" multiple="120,500" BoundingBox="400,100" hitRadius="10" captureProbability="0.0032" caijin="0.1838" />
+	<Fish kind="19" name="企鹅" speed="1" multiple="320" BoundingBox="404,100" hitRadius="10" captureProbability="0.0031" caijin="0.2673" />
+	<Fish kind="20" name="李逵" speed="2" multiple="40,300" BoundingBox="200,245" hitRadius="10" captureProbability="0.0125" caijin="0.0668" />
+	<Fish kind="21" name="定屏炸弹" speed="3" multiple="20" BoundingBox="180,100" hitRadius="10" captureProbability="0.015" caijin="0.0167" />
+	<Fish kind="22" name="局部炸弹" speed="3" multiple="0" BoundingBox="140,140,400,400" hitRadius="10" captureProbability="0.0125" caijin="0.025" />
+	<Fish kind="23" name="超级炸弹" speed="3" multiple="0" BoundingBox="130,130" hitRadius="10" captureProbability="0.0025" caijin="0.025" />
+	<Fish kind="24" name="大三元1" speed="4" multiple="22" BoundingBox="340,130" hitRadius="10" captureProbability="0.02" caijin="0.0184" />
+	<Fish kind="25" name="大三元2" speed="4" multiple="32" BoundingBox="340,130" hitRadius="10" captureProbability="0.01" caijin="0.0267" />
+	<Fish kind="26" name="大三元3" speed="4" multiple="32" BoundingBox="340,130" hitRadius="10" captureProbability="0.01" caijin="0.0267" />
+	<Fish kind="27" name="大四喜1" speed="4" multiple="20" BoundingBox="460,130" hitRadius="10" captureProbability="0.02" caijin="0.0167" />
+	<Fish kind="28" name="大四喜2" speed="4" multiple="20" BoundingBox="460,130" hitRadius="10" captureProbability="0.02" caijin="0.0167" />
+	<Fish kind="29" name="大四喜3" speed="4" multiple="40" BoundingBox="460,130" hitRadius="10" captureProbability="0.01" caijin="0.0334" />
+	<Fish kind="30" name="鱼王1" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.08" caijin="0" />
+	<Fish kind="31" name="鱼王2" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.08" caijin="0" />
+	<Fish kind="32" name="鱼王3" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.06" caijin="0" />
+	<Fish kind="33" name="鱼王4" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.05" caijin="0" />
+	<Fish kind="34" name="鱼王5" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.04" caijin="0" />
+	<Fish kind="35" name="鱼王6" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.04" caijin="0" />
+	<Fish kind="36" name="鱼王7" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.03" caijin="0" />
+	<Fish kind="37" name="鱼王8" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.02" caijin="0" />
+	<Fish kind="38" name="鱼王9" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.01" caijin="0" />
+	<Fish kind="39" name="鱼王10" speed="5" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.009" caijin="0" />
+	<Fish kind="40" name="鱼王11" speed="2" multiple="0" BoundingBox="150,150" hitRadius="10" captureProbability="0.009" caijin="0" />
+	<!-- kind:对应BulletKind name:描述 speed:子弹速度 netRadius:渔网的半径 -->
+	<Bullet kind="0" name="1炮筒" speed="23" netRadius="70" />
+	<Bullet kind="1" name="2炮筒" speed="23" netRadius="100" />
+	<Bullet kind="2" name="3炮筒" speed="23" netRadius="90" />
+	<Bullet kind="3" name="4炮筒" speed="23" netRadius="70" />
+	<Bullet kind="4" name="1炮筒能量炮" speed="28" netRadius="80" />
+	<Bullet kind="5" name="2炮筒能量炮" speed="28" netRadius="90" />
+	<Bullet kind="6" name="3炮筒能量炮" speed="28" netRadius="60" />
+	<Bullet kind="7" name="4炮筒能量炮" speed="28" netRadius="70" />
+</Config>

@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BankTipsDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CardControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgViewChart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrameWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOption.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageTipDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordGameList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinButtonEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinHorizontalScrollbar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinListrCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinScrollBarEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinVerticleScrollbar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BankTipsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CardControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\消息定义\CMD_Baccarat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgViewChart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrameWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOption.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Memdc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTipDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordGameList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinButtonEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinHorizontalScrollbar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\SkinSB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinScrollBarEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinVerticleScrollbar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\APPLY_USER_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_APPLY_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_BANK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Bt_cancel_apply.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CANCEL_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CHART.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CHART_CLOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Frame\BT_CLOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CLOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CM_100.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CM_1000.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CM_10000.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CM_100000.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CM_1000000.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CM_10000000.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CM_5000000.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_DRAW.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_ENTER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_FRESH.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_GETGOLD.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME\BT_MAX.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Frame\BT_MIN.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Frame\BT_OPTION.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME\BT_RESTORE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_S.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_SAVEGOLD.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_SCORE_MOVE_L.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_SCORE_MOVE_R.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Frame\BT_SOUND_CLOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Frame\BT_SOUND_OPEN.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_STORAGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Bt_superrob_banker.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_X.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CHANGE_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CHART_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME_PING_JIA.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME_TONG_DIAN_PING.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME_XIAN_JIA.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME_XIAN_JIA_TOP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME_XIAN_TIAN_WANG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME_ZHUANG_JIA.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME_ZHUANG_JIA_TOP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FRAME_ZHUANG_TIAN_WANG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\GAME_CARD.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_end.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\GAME_LOGO.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\GAME_POINT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\GameClient.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\JETTOM_VIEW.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\LIST_TITLE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\ME_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\ME_SCORE_NUMBER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\NO_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SCORE_NUMBER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\scrollbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SKIN_SCROLL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SUPERROB.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SUPERROB_USERFRAME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\USER_STATUS_IMAGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\VIEW_FILL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\WIN_FLAGS.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BANK_FRAME.png" />
+    <Image Include="Res\BANKER_INFO.png" />
+    <Image Include="Res\BANKER_RESULTINFO.png" />
+    <Image Include="Res\BANKNUM.png" />
+    <Image Include="Res\BET_TIP.png" />
+    <Image Include="Res\BET_VIEW.png" />
+    <Image Include="Res\Bottom\BOTTOM_PING.png" />
+    <Image Include="Res\Bottom\BOTTOM_PING_EX.png" />
+    <Image Include="Res\Bottom\BOTTOM_XIAN.png" />
+    <Image Include="Res\Bottom\BOTTOM_XIAN_EX.png" />
+    <Image Include="Res\Bottom\BOTTOM_XIAN_EX_TOW_PAIR.png" />
+    <Image Include="Res\Bottom\BOTTOM_XIAN_TOW_PAIR.png" />
+    <Image Include="Res\Bottom\BOTTOM_ZHUANG.png" />
+    <Image Include="Res\Bottom\BOTTOM_ZHUANG_EX.png" />
+    <Image Include="Res\Bottom\BOTTOM_ZHUANG_EX_TOW_PAIR.png" />
+    <Image Include="Res\Bottom\BOTTOM_ZHUANG_TOW_PAIR.png" />
+    <Image Include="Res\BRAND_BOX_LEFT.png" />
+    <Image Include="Res\BRAND_BOX_RIGHT.png" />
+    <Image Include="Res\CHANGE_BANKER.png" />
+    <Image Include="Res\CHART_PING.png" />
+    <Image Include="Res\CHART_PING_EX.png" />
+    <Image Include="Res\CHART_XIAN.png" />
+    <Image Include="Res\CHART_XIAN_EX.png" />
+    <Image Include="Res\CHART_ZHUANG.png" />
+    <Image Include="Res\CHART_ZHUANG_EX.png" />
+    <Image Include="Res\CHAT_BACK.png" />
+    <Image Include="Res\CHIP_INFO.png" />
+    <Image Include="Res\FIRE_EFFECT.png" />
+    <Image Include="Res\Frame\FRAME_BL.png" />
+    <Image Include="Res\Frame\FRAME_BM.png" />
+    <Image Include="Res\Frame\FRAME_BR.png" />
+    <Image Include="Res\Frame\FRAME_LM.png" />
+    <Image Include="Res\FRAME_PING_JIA.png" />
+    <Image Include="Res\Frame\FRAME_RM.png" />
+    <Image Include="Res\Frame\FRAME_TL.png" />
+    <Image Include="Res\Frame\FRAME_TM.png" />
+    <Image Include="Res\FRAME_TONG_DIAN_PING.png" />
+    <Image Include="Res\Frame\FRAME_TR.png" />
+    <Image Include="Res\FRAME_XIAN_JIA.png" />
+    <Image Include="Res\FRAME_XIAN_JIA_TOP.png" />
+    <Image Include="Res\FRAME_XIAN_TIAN_WANG.png" />
+    <Image Include="Res\FRAME_ZHUANG_JIA.png" />
+    <Image Include="Res\FRAME_ZHUANG_JIA_TOP.png" />
+    <Image Include="Res\FRAME_ZHUANG_TIAN_WANG.png" />
+    <Image Include="Res\GAME_CARD.png" />
+    <Image Include="Res\GAME_END.png" />
+    <Image Include="Res\GAME_END_ALL_SCORE.png" />
+    <Image Include="Res\GAME_END_CRAD_POINT.png" />
+    <Image Include="Res\GAME_END_FRAME.png" />
+    <Image Include="Res\GAME_END_MY_SCORE.png" />
+    <Image Include="Res\GAME_NUM.png" />
+    <Image Include="Res\GAME_POINT.png" />
+    <Image Include="Res\HISTORY_RESULT_BACK.png" />
+    <Image Include="Res\HISTORY_RESULT_FRONT.png" />
+    <Image Include="Res\HISTORY_RESULT_MID.png" />
+    <Image Include="Res\ME_BANKER.png" />
+    <Image Include="Res\ME_SCORE_BACK.png" />
+    <Image Include="Res\ME_SCORE_NUMBER.png" />
+    <Image Include="Res\NO_BANKER.png" />
+    <Image Include="Res\PLAY_LEFT.png" />
+    <Image Include="Res\PLAY_MIDDLE.png" />
+    <Image Include="Res\PLAY_RIGHT.png" />
+    <Image Include="Res\PLAYER_RESULTINFO.png" />
+    <Image Include="Res\SCORE_BACK.png" />
+    <Image Include="Res\SCORE_INFO.png" />
+    <Image Include="Res\SCORE_NUMBER.png" />
+    <Image Include="Res\TIME_BACK.png" />
+    <Image Include="Res\TIME_FLAG.png" />
+    <Image Include="Res\TIME_NUMBER.png" />
+    <Image Include="Res\TIME_TYPE.png" />
+    <Image Include="Res\TWO_PAIR_FLAG.png" />
+    <Image Include="Res\USER_BACK.png" />
+    <Image Include="Res\VIEW_BACK.png" />
+    <Image Include="Res\VIEW_BACK_JB.png" />
+    <Image Include="Res\WAIT_FIRST.png" />
+    <Image Include="Res\WAIT_VALLEYS.png" />
+    <Image Include="Res\WIN_FLAGS.png" />
+    <Image Include="Res\WIN_TYPE.png" />
+    <Image Include="Res\WIN_XIAN.png" />
+    <Image Include="Res\WIN_ZHUANG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GameClient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\SCORE_100.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\SCORE_1000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\SCORE_10000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\SCORE_100000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\SCORE_1000000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\SCORE_10000000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\SCORE_5000000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Res\Sound\ADD_GOLD.wav" />
+    <Media Include="Res\Sound\ADD_GOLD_EX.wav" />
+    <Media Include="Res\Sound\BACK_GROUND.wav" />
+    <Media Include="Res\Sound\CHEER1.wav" />
+    <Media Include="Res\Sound\CHEER2.wav" />
+    <Media Include="Res\Sound\CHEER3.wav" />
+    <Media Include="Res\Sound\DISPATCH_CARD.wav" />
+    <Media Include="Res\Sound\END_DRAW.wav" />
+    <Media Include="Res\Sound\END_LOST.wav" />
+    <Media Include="Res\Sound\END_WIN.wav" />
+    <Media Include="Res\Sound\GAME_START.wav" />
+    <Media Include="Res\Sound\TIME_WARIMG.wav" />
+  </ItemGroup>
+</Project>

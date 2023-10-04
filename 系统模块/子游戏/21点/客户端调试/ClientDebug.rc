@@ -1,0 +1,332 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientDebug.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ClientDebug.dll"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "ClientDebug.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MAIN DIALOGEX 0, 0, 671, 479
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "21点调试端"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TAB_CUSTOM,"SysTabControl32",0x0,7,0,657,466
+    CTEXT           "子窗口显示区域",IDC_STATIC_SHOW,14,24,643,428,SS_CENTERIMAGE
+END
+
+IDD_CUSTOM_GENERAL DIALOGEX 0, 0, 647, 423
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    LTEXT           "0",IDC_STATIC_ROOM_CTRLDESC,216,292,8,8,NOT WS_VISIBLE
+    LTEXT           "%",IDC_STATIC,248,152,8,8
+    LTEXT           "%",IDC_STATIC,226,292,8,8
+    EDITTEXT        IDC_EDIT_CONFIG_SYSSTORAGE,394,126,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_CONFIG_PLAYERSTORAGE,548,126,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_CONFIG_PARAMETER_K,394,152,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_RESET_PERCENT,548,152,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ANCHOU_PERCENT,410,59,50,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "库存配置",IDC_STATIC_SYS,5,95,627,122
+    RTEXT           "系统库存：",IDC_STATIC,40,131,41,8
+    LTEXT           "系统库存：",IDC_STATIC,346,129,41,8
+    RTEXT           "玩家库存：",IDC_STATIC,184,131,41,8
+    LTEXT           "玩家库存：",IDC_STATIC,500,129,41,8
+    RTEXT           "调节系数：",IDC_STATIC,40,152,41,8
+    LTEXT           "调节系数：",IDC_STATIC,346,155,41,8
+    LTEXT           "%",IDC_STATIC,452,155,8,8
+    PUSHBUTTON      "执行",IDC_BUTTON_SETRULE,545,173,64,23
+    LTEXT           "40000",IDC_STATIC_CUR_SYSSTORAGE,89,131,54,8
+    LTEXT           "28000",IDC_STATIC_CUR_PLAYERSTORAGE,231,131,54,8
+    LTEXT           "20%",IDC_STATIC_CUR_PARAMETER_K,89,152,9,8
+    LTEXT           "50",IDC_STATIC_SYS_RESET_PERCENT,231,152,16,8
+    RTEXT           "重置区间：",IDC_STATIC,168,152,57,8
+    GROUPBOX        "当前库存数据",IDC_STATIC_T,15,114,297,94
+    RTEXT           "库存重置次数：",IDC_STATIC,168,175,57,8
+    RTEXT           "累计库存统计：",IDC_STATIC,24,193,57,8
+    LTEXT           "40000",IDC_STATIC_SYSCTRL_RESETCOUNT,231,175,37,8
+    LTEXT           "40000",IDC_STATIC_SYSCTRL_SYSWIN,89,193,48,8
+    GROUPBOX        " 基本配置",IDC_STATIC_SET,9,33,623,54
+    LTEXT           "强制重置区间：",IDC_STATIC,486,155,57,8
+    LTEXT           "%",IDC_STATIC,607,155,8,8
+    LTEXT           "配置抽水比例：",IDC_STATIC,352,62,57,8
+    GROUPBOX        "抽水配置",IDC_STATIC_CHOU,16,46,610,35
+    EDITTEXT        IDC_EDIT_ANCHOU_PERCENT_CUR,88,62,50,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    LTEXT           "当前抽水比例：",IDC_STATIC,29,65,57,8
+    EDITTEXT        IDC_EDIT_ANCHOU_TOTAL,235,60,65,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    LTEXT           "当前抽水总数：",IDC_STATIC,175,63,57,8
+    EDITTEXT        IDC_EDIT_SYS_WINTOTAL,62,7,110,16,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "服务比例总数：",IDC_STATIC_REVENUE,198,4,95,23,SS_CENTERIMAGE
+    EDITTEXT        IDC_SERVICE_SYS_WINTOTAL,301,7,110,16,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "%",IDC_STATIC,144,65,8,8
+    LTEXT           "%",IDC_STATIC,467,63,8,8
+    GROUPBOX        "库存配置",IDC_STATIC_T2,321,114,304,93
+    PUSHBUTTON      "执行",IDC_BUTTON_CHOU,545,54,64,23
+    RTEXT           "统计：",IDC_STATIC_TONGJI,16,6,39,20,SS_CENTERIMAGE
+    LTEXT           "50",IDC_STATIC_SYS_ZHONG_PERCENT,89,172,20,8
+    RTEXT           "中奖率：",IDC_STATIC,44,172,37,8
+    EDITTEXT        IDC_EDIT_ROOMCTRL_SYSSTORAGE,85,332,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ROOMCTRL_PLAYERSTORAGE,217,332,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ROOMCTRL_PARAMETER_K,85,355,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_RESET_PERCENT_ROOM2,217,355,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "系统库存：",IDC_STATIC,37,336,41,8
+    LTEXT           "玩家库存：",IDC_STATIC,169,336,41,8
+    LTEXT           "调节系数：",IDC_STATIC,37,359,46,8
+    LTEXT           "%",IDC_STATIC,139,359,8,8
+    PUSHBUTTON      "执行",IDC_BTN_SET_ROOMCTRL,117,375,54,24
+    RTEXT           "系统库存：",IDC_STATIC,170,274,41,8
+    RTEXT           "玩家库存：",IDC_STATIC,29,271,41,8
+    RTEXT           "调节系数：",IDC_STATIC,29,290,41,8
+    LTEXT           "0",IDC_STATIC_ROOMCTRL_SYSSTORAGE,217,274,54,8
+    LTEXT           "0",IDC_STATIC_ROOMCTRL_PLAYERSTORAGE,77,271,54,8
+    LTEXT           "0",IDC_STATIC_ROOMCTRL_PARAMETER_K,77,290,20,8
+    RTEXT           "中奖率：",IDC_STATIC,154,291,57,8
+    GROUPBOX        "当前房间调试数据",IDC_STATIC_ROOM_T,15,237,297,75
+    RTEXT           "调试ID：",IDC_STATIC,32,254,38,8
+    RTEXT           "系统输赢总数：",IDC_STATIC,154,313,57,8,NOT WS_VISIBLE
+    LTEXT           "0",IDC_STATIC_ROOMCTRL_ID,78,254,54,8
+    LTEXT           "0",IDC_STATIC_ROOMCTRL_SYSWIN2,224,315,54,8,NOT WS_VISIBLE
+    LTEXT           "强制重置区间：",IDC_STATIC,155,359,57,8
+    LTEXT           "%",IDC_STATIC,275,358,8,8
+    GROUPBOX        "房间配置",IDC_STATIC_ROOM_T2,15,319,297,83
+    GROUPBOX        "房间调试",IDC_STATIC_ROOM_T3,5,220,627,196
+    CONTROL         "",IDC_LIST_ROOM_ITEM,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,331,254,286,103
+    GROUPBOX        "房间调试列表",IDC_STATIC_T3,324,237,301,167
+    RTEXT           "房间调试统计：",IDC_STATIC,358,381,57,8
+    EDITTEXT        IDC_EDIT_ROOM_TOTAL,418,378,65,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "取消调试",IDC_BUTTON_CANCELL_ROOM,545,373,64,23
+    LTEXT           "%",IDC_STATIC,101,152,8,8
+    LTEXT           "%",IDC_STATIC,85,290,8,8
+END
+
+IDD_CUSTOM_ADVANCED DIALOGEX 0, 0, 648, 391
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_SYSSTORAGE,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,16,24,287,119
+    PUSHBUTTON      "删除",IDC_BTN_CANCEL_ROOMCTRL,78,321,57,26
+    GROUPBOX        "房间调试",IDC_STATIC_ROOM,7,168,305,197
+    GROUPBOX        "库存调试",IDC_STATIC_SYS,7,2,305,153
+    CONTROL         "",IDC_LIST_ROOM,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,183,287,124
+    GROUPBOX        "玩家调试",IDC_STATIC_USER,322,168,305,197
+    CONTROL         "",IDC_LIST_USERSTORAGE,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,330,185,285,122
+    PUSHBUTTON      "清除所有",IDC_BTN_CANCEL_USERCTRL,493,321,57,26
+    PUSHBUTTON      "删除",IDC_BTN_CANCEL_USERCTRL2,419,321,57,26
+    PUSHBUTTON      "清除所有",IDC_BTN_CANCEL_ROOMCTRL2,158,321,57,26
+    RTEXT           "开始记录时间：",IDC_STATIC,260,375,57,8
+    EDITTEXT        IDC_EDIT_RECORD_TIME,321,371,81,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_LIST_DESK,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,330,25,285,92
+    GROUPBOX        "牌桌调试",IDC_STATIC_SYS2,322,2,305,153
+    PUSHBUTTON      "清除所有",IDC_BTN_CLEAR_DESKALL,493,123,57,26
+    PUSHBUTTON      "删除",IDC_BTN_CLEAR_DESK,419,123,57,26
+END
+
+IDD_CUSTOM_CONTROL DIALOGEX 0, 0, 604, 415
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_COMBO_TIMES,77,120,48,61,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "%",IDC_STATIC,433,141,8,8
+    LTEXT           "%",IDC_STATIC,433,173,8,8
+    EDITTEXT        IDC_EDIT_USERID,376,61,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USERCTRL_SYSSTORAGE,376,111,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USERCTRL_PLAYERSTORAGE,376,87,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_RESET_PERCENT_USER,376,169,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USERCTRL_PARAMETER_K,376,137,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "玩家调试库存配置",IDC_STATIC_USER,12,12,585,394
+    RTEXT           "系统库存：",IDC_STATIC,331,115,41,8
+    RTEXT           "玩家库存：",IDC_STATIC,331,91,41,8
+    RTEXT           "调节系数：",IDC_STATIC,327,141,45,8
+    PUSHBUTTON      "执行",IDC_BTN_SET_USERCTRL,344,202,73,30
+    RTEXT           "当前系统库存：",IDC_STATIC,464,119,57,8
+    RTEXT           "当前玩家库存：",IDC_STATIC,464,91,57,8
+    RTEXT           "当前调节系数：",IDC_STATIC,464,146,57,8
+    RTEXT           "当前中奖率：",IDC_STATIC,464,178,57,8
+    GROUPBOX        "玩家调试",IDC_STATIC_USER_T,304,36,282,206
+    RTEXT           "当前调试ID：",IDC_STATIC,464,62,57,8
+    RTEXT           "系统输赢总数：",IDC_STATIC,464,207,57,8,NOT WS_VISIBLE
+    LTEXT           "0",IDC_STATIC_USERCTRL_SYSSTORAGE,524,119,54,8
+    LTEXT           "0",IDC_STATIC_USERCTRL_PLAYERSTORAGE,524,91,54,8
+    LTEXT           "0",IDC_STATIC_USERCTRL_PARAMETER_K,524,146,54,8
+    LTEXT           "0",IDC_STATIC_USER_CTRLDESC,524,178,25,8
+    LTEXT           "0",IDC_STATIC_USERCTRL_ID,524,62,54,8
+    LTEXT           "0",IDC_STATIC_USERCTRL_SYSWIN,524,207,54,8,NOT WS_VISIBLE
+    RTEXT           "调试ID：",IDC_STATIC,339,65,33,8
+    RTEXT           "强制重置区间：",IDC_STATIC,315,173,57,8
+    CONTROL         "",IDC_LIST_USER,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,20,259,565,87
+    PUSHBUTTON      "取消调试",IDC_BTN_CANCEL_USER,290,357,74,40
+    LTEXT           "请选中需要取消调试的玩家ID：",IDC_STATIC,172,373,113,8
+    GROUPBOX        "牌桌调试",IDC_STATIC_USER_T2,19,36,277,205
+    EDITTEXT        IDC_EDIT_USERID_DEBUG,74,59,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "玩家ID：",IDC_STATIC,38,63,33,8
+    RTEXT           "调试ID：",IDC_STATIC,37,63,33,8
+    PUSHBUTTON      "查询",IDC_BTN_QUARY,64,85,49,20
+    LTEXT           "调试局数：",IDC_STATIC,36,123,41,8
+    CONTROL         "单局庄家赢",IDC_RADIO_WIN,"Button",BS_AUTORADIOBUTTON | WS_GROUP,41,157,56,10
+    CONTROL         "单局庄家输",IDC_RADIO_LOSE,"Button",BS_AUTORADIOBUTTON,97,157,56,10
+    PUSHBUTTON      "执行",IDC_BTN_DEBUG_EXC,37,194,49,20
+    PUSHBUTTON      "取消",IDC_BTN_DEBUG_CANCELL,102,194,49,20
+    RTEXT           "剩余局数：",IDC_STATIC,193,137,41,8
+    RTEXT           "当前牌桌人数：",IDC_STATIC,177,95,57,8
+    RTEXT           "调试局数：",IDC_STATIC,193,116,41,8
+    RTEXT           "牌桌调试统计：",IDC_STATIC,177,158,57,8
+    RTEXT           "调试牌桌庄家ID：",IDC_STATIC,155,74,79,8
+    LTEXT           "0",IDC_STATIC_USERCTRL_SYSSTORAGE2,238,138,11,8
+    LTEXT           "0",IDC_STATIC_USERCTRL_PLAYERSTORAGE2,238,96,15,8
+    LTEXT           "0",IDC_STATIC_USER_CTRLDESC2,238,159,50,8
+    LTEXT           "未调试",IDC_STATIC_USERCTRL_ID2,238,74,39,8
+    LTEXT           "0",IDC_STATIC_USERCTRL_SYSSTORAGE3,238,117,11,8
+    RTEXT           "当前桌号：",IDC_STATIC,193,53,41,8
+    LTEXT           "未入桌",IDC_STATIC_USERCTRL_ID3,238,54,39,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_MAIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 657
+        BOTTOMMARGIN, 476
+    END
+
+    IDD_CUSTOM_GENERAL, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 416
+    END
+
+    IDD_CUSTOM_ADVANCED, DIALOG
+    BEGIN
+        RIGHTMARGIN, 638
+        BOTTOMMARGIN, 386
+    END
+
+    IDD_CUSTOM_CONTROL, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientDebug.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

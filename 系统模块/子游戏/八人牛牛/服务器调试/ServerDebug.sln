@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "µ÷ÊÔ·þÎñÆ÷", "ServerDebug.vcxproj", "{FCDF9601-42BA-4E54-9B5D-B6CE93909A8B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_Unicode = Debug_Unicode
+		Release = Release
+		Release_Unicode = Release_Unicode
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FCDF9601-42BA-4E54-9B5D-B6CE93909A8B}.Debug.ActiveCfg = Debug|Win32
+		{FCDF9601-42BA-4E54-9B5D-B6CE93909A8B}.Debug.Build.0 = Debug|Win32
+		{FCDF9601-42BA-4E54-9B5D-B6CE93909A8B}.Debug_Unicode.ActiveCfg = Debug_Unicode|Win32
+		{FCDF9601-42BA-4E54-9B5D-B6CE93909A8B}.Debug_Unicode.Build.0 = Debug_Unicode|Win32
+		{FCDF9601-42BA-4E54-9B5D-B6CE93909A8B}.Release.ActiveCfg = Release|Win32
+		{FCDF9601-42BA-4E54-9B5D-B6CE93909A8B}.Release.Build.0 = Release|Win32
+		{FCDF9601-42BA-4E54-9B5D-B6CE93909A8B}.Release_Unicode.ActiveCfg = Release_Unicode|Win32
+		{FCDF9601-42BA-4E54-9B5D-B6CE93909A8B}.Release_Unicode.Build.0 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

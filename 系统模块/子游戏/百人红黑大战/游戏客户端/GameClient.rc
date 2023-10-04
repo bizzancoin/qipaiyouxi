@@ -1,0 +1,363 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "百人30秒客户端"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "BaccaratNew.exe"
+            VALUE "OriginalFilename", "BaccaratNew.exe"
+            VALUE "ProductName", "百人30秒客户端"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_VIEW_FILL           BITMAP                  "res\\VIEW_FILL.bmp"
+IDB_BT_CM_100           BITMAP                  "res\\BT_CM_100.bmp"
+IDB_BT_CM_1000          BITMAP                  "res\\BT_CM_1000.bmp"
+IDB_BT_CM_10000         BITMAP                  "res\\BT_CM_10000.bmp"
+IDB_BT_CM_100000        BITMAP                  "res\\BT_CM_100000.bmp"
+IDB_BT_CM_1000000       BITMAP                  "res\\BT_CM_1000000.BMP"
+IDB_BT_CM_5000000       BITMAP                  "res\\BT_CM_5000000.BMP"
+IDB_BT_CM_10000000      BITMAP                  "res\\BT_CM_10000000.BMP"
+IDB_BT_APPLY_BANKER     BITMAP                  "res\\BT_APPLY_BANKER.bmp"
+IDB_BT_SUPERROB_BANKER  BITMAP                  "res\\BT_SUPERROB_BANKER.bmp"
+IDB_BT_CANCEL_BANKER    BITMAP                  "res\\BT_CANCEL_BANKER.bmp"
+IDB_BT_SCORE_MOVE_L     BITMAP                  "res\\BT_SCORE_MOVE_L.bmp"
+IDB_BT_SCORE_MOVE_R     BITMAP                  "res\\BT_SCORE_MOVE_R.bmp"
+IDB_BT_CANCEL_APPLY     BITMAP                  "res\\BT_CANCEL_APPLY.BMP"
+IDB_BT_CHART            BITMAP                  "res\\BT_CHART.bmp"
+IDB_CHART_BACK          BITMAP                  "res\\CHART_BACK.bmp"
+IDB_BT_CHART_CLOSE      BITMAP                  "res\\BT_CHART_CLOSE.bmp"
+IDB_BT_STORAGE          BITMAP                  "res\\BT_STORAGE.bmp"
+IDB_BT_DRAW             BITMAP                  "res\\BT_DRAW.bmp"
+IDB_BT_BT_S             BITMAP                  "res\\BT_S.bmp"
+IDB_BT_BT_X             BITMAP                  "res\\BT_X.bmp"
+IDB_SCROLL_BAR          BITMAP                  "res\\scrollbar.bmp"
+IDB_SKIN_SCROLL         BITMAP                  "res\\SKIN_SCROLL.bmp"
+IDB_LIST_TITLE          BITMAP                  "res\\LIST_TITLE.bmp"
+IDB_USER_STATUS_IMAGE   BITMAP                  "res\\USER_STATUS_IMAGE.bmp"
+IDB_BT_OPTION           BITMAP                  "res\\FRAME\\BT_OPTION.bmp"
+IDB_BT_MIN              BITMAP                  "res\\FRAME\\BT_MIN.bmp"
+IDB_BT_CLOSE            BITMAP                  "res\\FRAME\\BT_CLOSE.bmp"
+IDB_BT_MAX              BITMAP                  "res\\FRAME\\BT_MAX.bmp"
+IDB_BT_RESTORE          BITMAP                  "res\\FRAME\\BT_RESTORE.bmp"
+IDB_BT_BANK             BITMAP                  "res\\BT_BANK.bmp"
+IDB_BT_SOUND_OPEN       BITMAP                  "res\\FRAME\\BT_SOUND_OPEN.bmp"
+IDB_BT_SOUND_CLOSE      BITMAP                  "res\\FRAME\\BT_SOUND_CLOSE.bmp"
+IDB_BT_SEND             BITMAP                  "res\\BT_ENTER.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+HISTORY_RESULT_MID      PNG                     "res\\HISTORY_RESULT_MID.png"
+HISTORY_RESULT_FRONT    PNG                     "res\\HISTORY_RESULT_FRONT.png"
+HISTORY_RESULT_BACK     PNG                     "res\\HISTORY_RESULT_BACK.png"
+VIEW_BACK               PNG                     "res\\VIEW_BACK.png"
+CHIP_INFO               PNG                     "res\\CHIP_INFO.png"
+BANKER_RESULTINFO       PNG                     "res\\BANKER_RESULTINFO.png"
+PLAYER_RESULTINFO       PNG                     "res\\PLAYER_RESULTINFO.png"
+VIEW_BACK_JB            PNG                     "res\\VIEW_BACK_JB.png"
+GAME_END_FRAME          PNG                     "res\\GAME_END_FRAME.png"
+BET_TIP                 PNG                     "res\\BET_TIP.png"
+BRAND_BOX_RIGHT         PNG                     "res\\BRAND_BOX_RIGHT.png"
+PLAY_LEFT               PNG                     "res\\PLAY_LEFT.png"
+PLAY_MIDDLE             PNG                     "res\\PLAY_MIDDLE.png"
+PLAY_RIGHT              PNG                     "res\\PLAY_RIGHT.png"
+SCORE_INFO              PNG                     "res\\SCORE_INFO.png"
+BANKER_INFO             PNG                     "res\\BANKER_INFO.png"
+WAIT_VALLEYS            PNG                     "res\\WAIT_VALLEYS.png"
+WAIT_FIRST              PNG                     "res\\WAIT_FIRST.png"
+CHART_PING              PNG                     "res\\CHART_PING.png"
+CHART_PING_EX           PNG                     "res\\CHART_PING_EX.png"
+CHART_XIAN              PNG                     "res\\CHART_XIAN.png"
+CHART_XIAN_EX           PNG                     "res\\CHART_XIAN_EX.png"
+CHART_ZHUANG            PNG                     "res\\CHART_ZHUANG.png"
+CHART_ZHUANG_EX         PNG                     "res\\CHART_ZHUANG_EX.png"
+TWO_PAIR_FLAG           PNG                     "res\\TWO_PAIR_FLAG.png"
+CHANGE_BANKER           PNG                     "res\\CHANGE_BANKER.png"
+ME_BANKER               PNG                     "res\\ME_BANKER.png"
+NO_BANKER               PNG                     "res\\NO_BANKER.png"
+SCORE_NUMBER            PNG                     "res\\SCORE_NUMBER.png"
+SCORE_BACK              PNG                     "res\\SCORE_BACK.png"
+ME_SCORE_NUMBER         PNG                     "res\\ME_SCORE_NUMBER.png"
+ME_SCORE_BACK           PNG                     "res\\ME_SCORE_BACK.png"
+BET_VIEW                PNG                     "res\\BET_VIEW.png"
+WIN_FLAGS               PNG                     "res\\WIN_FLAGS.png"
+GAME_POINT              PNG                     "res\\GAME_POINT.png"
+FRAME_TONG_DIAN_PING    PNG                     "res\\FRAME_TONG_DIAN_PING.png"
+FRAME_XIAN_JIA          PNG                     "res\\FRAME_XIAN_JIA.png"
+FRAME_XIAN_TIAN_WANG    PNG                     "res\\FRAME_XIAN_TIAN_WANG.png"
+FRAME_ZHUANG_JIA        PNG                     "res\\FRAME_ZHUANG_JIA.png"
+FRAME_ZHUANG_TIAN_WANG  PNG                     "res\\FRAME_ZHUANG_TIAN_WANG.png"
+FRAME_PING_JIA          PNG                     "res\\FRAME_PING_JIA.png"
+FRAME_BANKER_TWO_PAIR   PNG                     "res\\FRAME_ZHUANG_JIA_TOP.png"
+FRAME_PLAYER_TWO_PAIR   PNG                     "res\\FRAME_XIAN_JIA_TOP.png"
+GAME_END                PNG                     "res\\GAME_END.PNG"
+GAME_END_MY_SCORE       PNG                     "res\\GAME_END_MY_SCORE.PNG"
+GAME_END_ALL_SCORE      PNG                     "res\\GAME_END_ALL_SCORE.PNG"
+GAME_END_CRAD_POINT     PNG                     "res\\GAME_END_CRAD_POINT.PNG"
+WIN_XIAN                PNG                     "res\\WIN_XIAN.PNG"
+WIN_ZHUANG              PNG                     "res\\WIN_ZHUANG.PNG"
+WIN_TYPE                PNG                     "res\\WIN_TYPE.PNG"
+TIME_FLAG               PNG                     "res\\TIME_FLAG.png"
+TIME_NUMBER             PNG                     "res\\TIME_NUMBER.png"
+TIME_BACK               PNG                     "res\\TIME_BACK.png"
+TIME_TYPE               PNG                     "res\\TIME_TYPE.png"
+GAME_CARD               PNG                     "res\\GAME_CARD.png"
+FRAME_TL                PNG                     "res\\FRAME\\FRAME_TL.png"
+FRAME_TM                PNG                     "res\\FRAME\\FRAME_TM.png"
+FRAME_TR                PNG                     "res\\FRAME\\FRAME_TR.png"
+FRAME_LM                PNG                     "res\\FRAME\\FRAME_LM.png"
+FRAME_RM                PNG                     "res\\FRAME\\FRAME_RM.png"
+FRAME_BL                PNG                     "res\\FRAME\\FRAME_BL.png"
+FRAME_BM                PNG                     "res\\FRAME\\FRAME_BM.png"
+FRAME_BR                PNG                     "res\\FRAME\\FRAME_BR.png"
+USER_BACK               PNG                     "res\\USER_BACK.png"
+CHAT_BACK               PNG                     "res\\CHAT_BACK.png"
+GAME_NUM                PNG                     "res\\GAME_NUM.png"
+BOTTOM_ZHUANG           PNG                     "res\\BOTTOM\\BOTTOM_ZHUANG.png"
+BOTTOM_ZHUANG_TOW_PAIR  PNG                     "res\\BOTTOM\\BOTTOM_ZHUANG_TOW_PAIR.png"
+BOTTOM_ZHUANG_EX        PNG                     "res\\BOTTOM\\BOTTOM_ZHUANG_EX.png"
+BOTTOM_ZHUANG_EX_TOW_PAIR PNG                     "res\\BOTTOM\\BOTTOM_ZHUANG_EX_TOW_PAIR.png"
+BOTTOM_XIAN             PNG                     "res\\BOTTOM\\BOTTOM_XIAN.png"
+BOTTOM_XIAN_TOW_PAIR    PNG                     "res\\BOTTOM\\BOTTOM_XIAN_TOW_PAIR.png"
+BOTTOM_XIAN_EX          PNG                     "res\\BOTTOM\\BOTTOM_XIAN_EX.png"
+BOTTOM_XIAN_EX_TOW_PAIR PNG                     "res\\BOTTOM\\BOTTOM_XIAN_EX_TOW_PAIR.png"
+BOTTOM_PING             PNG                     "res\\BOTTOM\\BOTTOM_PING.png"
+BOTTOM_PING_EX          PNG                     "res\\BOTTOM\\BOTTOM_PING_EX.png"
+SUPERROB                PNG                     "res\\SUPERROB.png"
+SUPERROB_USERFRAME      PNG                     "res\\SUPERROB_USERFRAME.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_SCORE_100000        CURSOR                  "res\\SCORE_100000.cur"
+IDC_SCORE_5000000       CURSOR                  "res\\SCORE_5000000.cur"
+IDC_SCORE_10000         CURSOR                  "res\\SCORE_10000.cur"
+IDC_SCORE_1000          CURSOR                  "res\\SCORE_1000.cur"
+IDC_SCORE_100           CURSOR                  "res\\SCORE_100.cur"
+IDC_SCORE_1000000       CURSOR                  "res\\SCORE_1000000.cur"
+IDC_SCORE_10000000      CURSOR                  "res\\SCORE_10000000.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+ADD_GOLD                WAVE                    "res\\sound\\ADD_GOLD.wav"
+ADD_GOLD_EX             WAVE                    "res\\sound\\ADD_GOLD_EX.wav"
+BACK_GROUND             WAVE                    "res\\sound\\BACK_GROUND.wav"
+END_WIN                 WAVE                    "res\\sound\\END_WIN.wav"
+END_LOST                WAVE                    "res\\sound\\END_LOST.wav"
+END_DRAW                WAVE                    "res\\sound\\END_DRAW.wav"
+TIME_WARIMG             WAVE                    "res\\sound\\TIME_WARIMG.wav"
+DISPATCH_CARD           WAVE                    "res\\sound\\DISPATCH_CARD.wav"
+GAME_START              WAVE                    "res\\sound\\GAME_START.wav"
+CHEER1                  WAVE                    "res\\sound\\CHEER1.wav"
+CHEER2                  WAVE                    "res\\sound\\CHEER2.wav"
+CHEER3                  WAVE                    "res\\sound\\CHEER3.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_GAME_RECORD DIALOGEX 0, 0, 328, 105
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | 
+    WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_RECORD_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | LVS_NOSCROLL | 
+                    LVS_NOCOLUMNHEADER | WS_TABSTOP,0,0,327,105
+END
+
+IDD_VIEW_CHART DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,69,66,50,14
+END
+
+IDD_OPTION DIALOGEX 0, 0, 199, 99
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,18,76,47,14
+    PUSHBUTTON      "取消",IDCANCEL,130,76,47,14
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,68,39,65,10
+    GROUPBOX        "常规配置：",IDC_STATIC_GROUP,18,28,160,43
+    CONTROL         "允许背景音效",IDC_ENABLE_BG_SOUND,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,68,55,65,10
+END
+
+IDD_MESSAGEDLG DIALOGEX 0, 0, 187, 94
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "您正在游戏中，确定要强退吗？",IDC_STATIC_MESSAGE,30,42,
+                    141,8
+    DEFPUSHBUTTON   "确定",IDOK,18,70,47,13
+    PUSHBUTTON      "取消",IDCANCEL,130,70,47,13
+END
+
+IDD_BANKTIPS_DLG DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,23,74,50,14
+    PUSHBUTTON      "取消",IDCANCEL,121,74,50,14
+    CONTROL         "存款",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE | WS_GROUP,17,39,32,10
+    CONTROL         "取款",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,78,39,32,
+                    10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_GAME_RECORD, DIALOG
+    BEGIN
+    END
+
+    IDD_VIEW_CHART, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ÓÎÏ··þÎñÆ÷", "GameServer.vcproj", "{390B89DC-4355-442B-AD09-91F6D9AF32DD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_Unicode = Debug_Unicode
+		Release = Release
+		Release_Unicode = Release_Unicode
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{390B89DC-4355-442B-AD09-91F6D9AF32DD}.Debug.ActiveCfg = Debug|Win32
+		{390B89DC-4355-442B-AD09-91F6D9AF32DD}.Debug.Build.0 = Debug|Win32
+		{390B89DC-4355-442B-AD09-91F6D9AF32DD}.Debug_Unicode.ActiveCfg = Debug_Unicode|Win32
+		{390B89DC-4355-442B-AD09-91F6D9AF32DD}.Debug_Unicode.Build.0 = Debug_Unicode|Win32
+		{390B89DC-4355-442B-AD09-91F6D9AF32DD}.Release.ActiveCfg = Release|Win32
+		{390B89DC-4355-442B-AD09-91F6D9AF32DD}.Release.Build.0 = Release|Win32
+		{390B89DC-4355-442B-AD09-91F6D9AF32DD}.Release_Unicode.ActiveCfg = Release_Unicode|Win32
+		{390B89DC-4355-442B-AD09-91F6D9AF32DD}.Release_Unicode.Build.0 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

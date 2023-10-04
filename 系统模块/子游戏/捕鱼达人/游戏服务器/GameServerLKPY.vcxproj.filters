@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AndroidUserItemSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServiceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDumper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TableFrameSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml\pugixml.cpp">
+      <Filter>pugixml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\消息定义\CMD_Fish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidUserItemSink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDumper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServiceManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TableFrameSink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_fish_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugixml.hpp">
+      <Filter>pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugiconfig.hpp">
+      <Filter>pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="fish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{880e3d8b-7753-4371-8664-3b436de371ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4c02172a-973a-49cd-8abe-a554a5229123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{beda188a-cfcd-4dd0-8a0f-d9a007a19c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pugixml">
+      <UniqueIdentifier>{3b9a98f5-b60f-4fd7-b411-fde9d20bd2ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GameServer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameServer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

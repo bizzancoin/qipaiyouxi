@@ -1,0 +1,215 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientControl.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ClientControl.dll"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "ClientControl.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_ADMIN DIALOGEX 0, 0, 655, 358
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CLIPSIBLINGS | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "控制管理器"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_STORAGE_DEDUCT,108,29,81,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_CURRENT,108,44,81,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MAX1,108,59,81,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MUL1,108,74,81,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MAX2,108,89,81,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MUL2,108,104,81,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "保存修改",IDC_BTN_UPDATE_STORAGE,87,133,67,17
+    COMBOBOX        IDC_COMBO_TIMES,382,22,48,72,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "闲对子  ",IDC_RADIO_LT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,359,50,37,10
+    CONTROL         "闲",IDC_RADIO_LC,"Button",BS_AUTORADIOBUTTON,297,50,37,
+                    10
+    CONTROL         "闲天王",IDC_RADIO_LB,"Button",BS_AUTORADIOBUTTON,421,50,
+                    37,10
+    CONTROL         "平",IDC_RADIO_CC,"Button",BS_AUTORADIOBUTTON,483,50,37,
+                    10
+    CONTROL         "同点平",IDC_RADIO_CB,"Button",BS_AUTORADIOBUTTON,483,76,
+                    37,10
+    CONTROL         "庄对子  ",IDC_RADIO_RT,"Button",BS_AUTORADIOBUTTON,359,
+                    76,37,10
+    CONTROL         "庄",IDC_RADIO_RC,"Button",BS_AUTORADIOBUTTON,297,76,37,
+                    10
+    CONTROL         "庄天王",IDC_RADIO_RB,"Button",BS_AUTORADIOBUTTON,421,76,
+                    37,10
+    PUSHBUTTON      "保存修改",IDC_BT_EXCUTE,330,128,67,17
+    EDITTEXT        IDC_EDIT_USER_ID,12,172,103,16,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "查询",IDC_BTN_USER_BET_QUERY,132,172,59,16
+    PUSHBUTTON      "全部",IDC_BTN_USER_BET_ALL,210,172,59,16
+    PUSHBUTTON      "取消控制",IDC_BT_RESET,430,128,67,17
+    PUSHBUTTON      "当前设置",IDC_BT_CURSET,355,169,38,15,NOT WS_VISIBLE
+    GROUPBOX        "库存相关",IDC_STATIC,3,5,242,149
+    RTEXT           "当前库存值：",IDC_STATIC,27,46,56,8
+    RTEXT           "库存衰减值：",IDC_STATIC,27,31,56,8
+    GROUPBOX        "区域控制（优先于库存控制）",IDC_STATIC,271,5,377,149
+    LTEXT           "控制次数：",IDC_STATIC,297,25,40,8
+    RTEXT           "库存起始值：",IDC_STATIC,27,16,56,8
+    EDITTEXT        IDC_EDIT_STORAGE_START,108,14,81,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    RTEXT           "库存上限1：",IDC_STATIC,27,61,56,8
+    RTEXT           "玩家赢分概率：",IDC_STATIC,27,76,56,8
+    RTEXT           "库存上限2：",IDC_STATIC,27,91,56,8
+    RTEXT           "玩家赢分概率：",IDC_STATIC,27,106,56,8
+    GROUPBOX        "玩家下注",IDC_STATIC,3,158,646,193
+    CONTROL         "",IDC_LIST_USER_BET,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_TABSTOP,7,194,634,139,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_LIST_USER_BET_ALL,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | LVS_NOSCROLL | LVS_NOCOLUMNHEADER | 
+                    WS_TABSTOP,7,333,634,12,WS_EX_STATICEDGE
+    LTEXT           "‰",IDC_STATIC,197,33,10,8
+    LTEXT           "%",IDC_STATIC,197,78,10,8
+    LTEXT           "%",IDC_STATIC,198,108,10,8
+    LTEXT           "静态",IDC_STATIC_CONTROL_INFO,309,101,196,11
+    CTEXT           "静态",IDC_STATIC_STORAGE_INFO,41,122,156,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_ADMIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 591
+        BOTTOMMARGIN, 357
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientControl.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
