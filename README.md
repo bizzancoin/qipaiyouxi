@@ -95,14 +95,14 @@
 小飞机
 
 ```
-@usdtvps666
+https://t.me/usdtvps666
 ```
 
 
 
-Whatsapp
+Whatsapp:***‪+44 7936 866117‬***
 
-<img src="https://raw.githubusercontent.com/bizzancoin/btc-eth-fil-contract-Exchange---ztuo/master/img/whatsapp.jpg" alt="whatsapp" style="zoom: 33%;" />
+<img src="./image/whatsapp.png" alt="whatsapp" style="zoom: 33%;" />
 
 # 声明：
 
