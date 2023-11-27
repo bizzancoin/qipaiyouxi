@@ -102,7 +102,7 @@ https://t.me/usdtvps666
 
 Whatsapp:***‪+44 7936 866117‬***
 
-<img src="./image/whatsapp.png" alt="whatsapp" style="zoom: 33%;" />
+<img src=".image/whatsapp.png" alt="whatsapp" style="zoom: 33%;" />
 
 # 声明：
 
