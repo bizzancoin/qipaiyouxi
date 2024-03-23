@@ -10,9 +10,10 @@
 | **开源代码：web 代码，.net**                   | [![Github Actions Badge](https://img.shields.io/badge/-Git%20-2088FF?style=flat&logo=Git&logoColor=white)](https://github.com/bizzancoin/qipaiyouxi-webusernet) |
 
 <!--   GitHub proj graph -->
-# 棋牌游戏大全，持续更新
 
-#### 自助下单：https://www.bnbcode.com，感谢大家支持！
+自助下单：https://www.bnbcode.com
+
+# 棋牌游戏大全，持续更新
 
 ```
 福建省房卡集合：
